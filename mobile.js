@@ -231,6 +231,7 @@ var data=[
    
 ]
 
+
 data.map(function(ele){
  
     var div=document.createElement("div")
