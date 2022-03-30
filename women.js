@@ -6,6 +6,7 @@ var womensData = [
       name: "Utsa by Westside Greey Printed A-Line Kurti",
       price: "₹799",
       strikedoffprice: null,
+      rating:4.6(9),
     },
     {
       image_url:
@@ -14,6 +15,7 @@ var womensData = [
       name: "Aurelia White Cotton Embroidered Straight Kurta",
       price: "₹749",
       strikedoffprice: "₹1499",
+      rating:4.3(9),
     },
     {
       image_url:
@@ -22,6 +24,7 @@ var womensData = [
         name: "Utsa by Westside Mauve Embroidered A-Line Kurta",
       price: "₹1299",
       strikedoffprice: null,
+      rating:3.6(7),
     },
     {
       image_url:
@@ -30,6 +33,7 @@ var womensData = [
         name: "W Minion Yellow Embellished A Line Kurta",
       price: "₹2499",
       strikedoffprice: "₹4999",
+      rating:5(1),
     },
     {
       image_url:
@@ -38,6 +42,7 @@ var womensData = [
         name: "Biba Green Printed Straight Kurti",
       price: "₹1599",
       strikedoffprice: null,
+      rating:4.4(5),
     },
     {
       image_url:
@@ -46,6 +51,7 @@ var womensData = [
         name: "Biba Indigo Blue Cotton Straight Kurta",
       price: "₹998",
       strikedoffprice: "₹1999",
+      rating:null,
     },
     {
       image_url:
@@ -54,6 +60,7 @@ var womensData = [
         name: "Aurelia Blue Striped Kurta",
       price: "₹649",
       strikedoffprice: "₹1299",
+      rating:5(2),
     },
     {
       image_url:
@@ -62,6 +69,7 @@ var womensData = [
         name: "Zuba by Westside Orange Printed Ombre A-line Kurta",
       price: "₹2599",
       strikedoffprice: null,
+      rating:4.1(10),
     },
     {
       image_url:
@@ -70,6 +78,7 @@ var womensData = [
         name: "Zuba by Westside Green Floral A-Line Kurta",
       price: "₹2299",
       strikedoffprice: null,
+      rating:4.8(4),
     },
     {
       image_url:
@@ -78,6 +87,7 @@ var womensData = [
         name: "Diza Curves by Westside Orange Pintuck A-Line Kurta",
       price: "₹1199",
       strikedoffprice: null,
+      rating:4.6(5),
     },
     {
       image_url:
@@ -86,6 +96,7 @@ var womensData = [
         name: "Fabindia Black Cotton Straight Kurta",
       price: "₹1399",
       strikedoffprice: null,
+      rating:null,
     },
     {
       image_url:
@@ -94,6 +105,7 @@ var womensData = [
         name: "Diza Curves by Westside Pink Chevron Straight Kurta",
       price: "₹799",
       strikedoffprice: null,
+      rating:4(5),
     },
     {
         image_url:
@@ -102,6 +114,7 @@ var womensData = [
           name: "Fabindia Pink Cotton Chequered Straight Kurta",
         price: "₹1499",
         strikedoffprice: null,
+        rating:5(1),
       },
       {
         image_url:
@@ -110,6 +123,7 @@ var womensData = [
           name: "Global Desi Blue Printed Kurta",
         price: "₹1329",
         strikedoffprice: "₹1899",
+        rating:null,
       },
       {
         image_url:
@@ -118,6 +132,7 @@ var womensData = [
           name: "Juniper Grey Cotton Embroidered A Line Kurta With Mask",
         price: "₹1039",
         strikedoffprice: "₹1999",
+        rating:4.2(24),
       },
       {
         image_url:
@@ -126,6 +141,7 @@ var womensData = [
           name: "Juniper Green Printed Straight Kurta With Mask",
         price: "₹799",
         strikedoffprice: "₹1699",
+        rating:null,
       },
       {
         image_url:
@@ -134,6 +150,7 @@ var womensData = [
           name: "Global Desi Pink Printed Kurta",
         price: "₹2099",
         strikedoffprice: null,
+        rating:null,
       },
       {
         image_url:
@@ -142,6 +159,7 @@ var womensData = [
           name: "Aks Coral Cotton Printed Straight Kurta",
         price: "₹499",
         strikedoffprice: "₹999",
+        rating:null,
       },
       {
         image_url:
@@ -150,6 +168,7 @@ var womensData = [
           name: "Anubhutee Blue Printed Straight Kurti",
         price: "₹584",
         strikedoffprice: "₹1299",
+        rating:4.3(106),
       },
       {
         image_url:
@@ -158,6 +177,7 @@ var womensData = [
           name: "Aks Grey Printed Straight Kurta",
         price: "₹849",
         strikedoffprice: "₹1699",
+        rating:3.5(8),
       },
       {
         image_url:
@@ -166,6 +186,7 @@ var womensData = [
           name: "Soch Grey & White Embellished A Line Kurta",
         price: "₹999",
         strikedoffprice: "₹1998",
+        rating:null,
       },
       {
         image_url:
@@ -174,6 +195,7 @@ var womensData = [
           name: "Jaipur Kurti Yellow Cotton Printed Straight Kurta",
         price: "₹542",
         strikedoffprice: "₹1349",
+        rating:4(63),
       },
       {
         image_url:
@@ -182,6 +204,7 @@ var womensData = [
           name: "Gerua Beige & Red Printed A Line Kurti",
         price: "₹674",
         strikedoffprice: "₹1499",
+        rating:3(1),
       },
       {
         image_url:
@@ -190,6 +213,7 @@ var womensData = [
           name: "Yufta Women Blue & Offwhite Printed Kaftan Kurta",
         price: "₹799",
         strikedoffprice: "₹1999",
+        rating:4(3),
       },
       {
         image_url:
@@ -198,6 +222,7 @@ var womensData = [
           name: "Gerua Yellow Printed Cotton Kurti",
         price: "₹494",
         strikedoffprice: "₹1099",
+        rating:4.1(30),
       },
       {
         image_url:
@@ -206,6 +231,7 @@ var womensData = [
           name: "Tara-C-Tara Pink Embellished A Line Kurta With Dupatta",
         price: "₹2759",
         strikedoffprice: "₹4599",
+        rating:null,
       },
       {
         image_url:
@@ -214,6 +240,7 @@ var womensData = [
           name: "Tara-C-Tara Light Blue V Neck Anarkali Kurta With Dupatta",
         price: "₹2579",
         strikedoffprice: "₹4299",
+        rating:5(1),
       },
       {
         image_url:
@@ -222,6 +249,7 @@ var womensData = [
           name: "Yufta Multicolor Printed Kaftan Kurti",
         price: "₹719",
         strikedoffprice: "₹1799",
+        rating:4.5(2),
       },
       {
         image_url:
@@ -230,6 +258,7 @@ var womensData = [
           name: "Indo Era Navy Cotton Embroidered Straight Kurta",
         price: "₹739",
         strikedoffprice: "₹2599",
+        rating:4(6),
       },
       {
         image_url:
@@ -238,6 +267,7 @@ var womensData = [
           name: "Rustorange Black & Yellow Striped Long Kurta",
         price: "₹1399",
         strikedoffprice: "₹2799",
+        rating:null,
       },
       {
         image_url:
@@ -246,6 +276,7 @@ var womensData = [
           name: "Indo Era Black A Line Kurta",
         price: "₹1079",
         strikedoffprice: "₹3399",
+        rating:4(34),
       },
       {
         image_url:
@@ -254,6 +285,7 @@ var womensData = [
           name: "Rustorange Black & Green Striped Long Kurta",
         price: "₹1399",
         strikedoffprice: "₹2799",
+        rating:3.8(6),
       },
       {
         image_url:
@@ -262,6 +294,7 @@ var womensData = [
           name: "Janasya Blue Tie-Dye Fit & Flare Kaftan Kurta",
         price: "₹795",
         strikedoffprice: "₹2198",
+        rating:5(2),
       },
       {
         image_url:
@@ -270,6 +303,7 @@ var womensData = [
           name: "Yuris Blue Printed Straight Kurta",
         price: "₹759",
         strikedoffprice: "₹1999",
+        rating:3.3(6), 
       },
       {
         image_url:
@@ -278,6 +312,7 @@ var womensData = [
           name: "Juniper Navy A Line Kurta",
         price: "₹775",
         strikedoffprice: "₹3099",
+        rating:5(3),
       },
       {
         image_url:
@@ -286,6 +321,7 @@ var womensData = [
           name: "Janasya Pewter Printed Straight Kurta",
         price: "₹492",
         strikedoffprice: "₹1199",
+        rating:4.1(10),
       },
       {
         image_url:
@@ -294,6 +330,7 @@ var womensData = [
           name: "Yuris Pink Printed A Line Kurta",
         price: "₹769",
         strikedoffprice: "₹1799",
+        rating:5(6),
       },
       {
         image_url:
@@ -302,6 +339,7 @@ var womensData = [
           name: "W Baby Pink Cotton Printed Straight Kurti",
         price: "₹849",
         strikedoffprice: "₹1699",
+        rating:4.1(10),
       },
       {
         image_url:
@@ -310,6 +348,7 @@ var womensData = [
           name: "Janasya Blue Printed Straight Kurta",
         price: "₹474 ",
         strikedoffprice: "₹1399",
+        rating:null,
       },
       {
         image_url:
@@ -318,6 +357,7 @@ var womensData = [
           name: "KSUT Blue & White Cotton Printed Straight Kurta",
         price: "₹749",
         strikedoffprice: "₹1799",
+        rating:5(1),
       },
   ];
   

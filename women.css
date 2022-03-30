@@ -127,7 +127,7 @@ hr{
 }
 #div3{
     /* border: solid orange; */
-    /* display: flex; */
+    display: flex;
     margin-top: -11px;
     /* justify-content: space-around; */
     height: 30px;
