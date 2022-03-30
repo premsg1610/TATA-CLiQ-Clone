@@ -85,7 +85,7 @@ img:hover{
     border-top-right-radius: 10px;
    font-weight: bold;
    width: 96%;
-   margin-left: -4px;
+   /* margin-left: -4px; */
    margin-top: -2px;
 }
 .red{
@@ -106,13 +106,13 @@ span{
 }
 .bt{
     /* border:1px solid; */
-    margin-right: 185px;
+    margin-right: 175px;
 }
 .bt1{
-    margin-right:200px
+    margin-left:-130px
 }
 .bt2{
-    margin-right: 190px;
+    margin-right:150px;
 }
 hr{
     width: 90%;
