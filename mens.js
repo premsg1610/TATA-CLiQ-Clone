@@ -14,7 +14,7 @@ var mensData =  [
         namefull: "SOLEPLAY by Westside Beige Rainwear Loafers" ,
         price :  "799" ,
         off :  " ₹999" ,
-        rating : " 4.4 (8)"
+        rating : "4.4 (8)"
 
     },
     {  image_url : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkh0HEtOe_tqQ37NEKoTSmTBaBvU6oE6i9doPgX81P1my0k3WG" ,
@@ -30,7 +30,7 @@ var mensData =  [
         namefull: "  U.S. Polo Assn. Men's Quebec Black Loafers" ,
         price :  "2398" ,
         off :  " ₹3998" ,
-        rating : "5(1)"
+        rating : "5 (1)"
 
     },
     {  image_url : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR7rNRP24-vLHouMGE5xwghoDfcdjcI7UzH5xUhcyui0zvW00ka" ,
@@ -38,7 +38,7 @@ var mensData =  [
         namefull: " SOLEPLAY by Westside Indigo Perforated Loafers" ,
         price :  "799" ,
         off :  " ₹1199" ,
-        rating : "3.8(147)"
+        rating : "3.8 (147)"
 
     },
     {  image_url : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6BWNrJeQM76d7VWo_x7UJ-tuFrz9r4KdzIzaHLL58W43GQj7I" ,
@@ -46,7 +46,7 @@ var mensData =  [
         namefull: "  Florsheim Brown Casual Loafers" ,
         price :  "1996" ,
         off :  "₹2996" ,
-        rating : "4.6(5)"
+        rating : "4.6 (5)"
 
     },
     {  image_url : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdfEQ1dFiIFm0GPUZm9athuWHVwYktebUrgLX0N-q7najoWMAE" ,
@@ -62,7 +62,7 @@ var mensData =  [
         namefull: "  Skechers Men's FLEX ADVANTAGE Casual Shoe Slip-Ons" ,
         price :  "2400" ,
         off :  "₹3400" ,
-        rating : "3.9(21)"
+        rating : "3.9 (21)"
 
     },
     {  image_url : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-K-jPeUnUeEX7L7qRQtlYMtP1P96l-1waaIJIuvx5ekb5qBCV" ,
@@ -70,7 +70,7 @@ var mensData =  [
         namefull: "  Alberto Torresi Men's Calabria Tan Casual Loafers" ,
         price :  "1999" ,
         off :  " ₹2999" ,
-        rating : "3.1(10)"
+        rating : "3.1 (10)"
 
     },
     {  image_url : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS0q7FWVm4nNFkDP8_dBfO4zrR-dI4kOo5_kTtDqKEwWFhs8Ng" ,
@@ -78,7 +78,7 @@ var mensData =  [
         namefull: "  Woodland Men's Khaki Casual Shoes" ,
         price :  "2577" ,
         off :  "  ₹4577" ,
-        rating : "3.8(4)"
+        rating : "3.8 (4)"
 
     },
     {  image_url : "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRmQWrMcaEiIRM81V2FUZTClR0GcpmlIkZXLCYS3gmzXvYneKs7" ,
@@ -94,7 +94,7 @@ var mensData =  [
         namefull: " ID Men's Black Casual Loafers" ,
         price :  "1350" ,
         off :  " ₹3350" ,
-        rating : "3.9(13)"
+        rating : "3.9 (13)"
 
     },
     {  image_url : "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSsT2WO0_Gvy3aR91PSh3BXMPArhHueJznT8aiPuYZGYGolJvo8" ,
@@ -102,7 +102,7 @@ var mensData =  [
         namefull: " Red tape Men's Black Casual Loafers" ,
         price :  "1474" ,
         off :  "  ₹3474" ,
-        rating : "3.5(81)"
+        rating : "3.5 (81)"
 
     },
     {  image_url : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw-sutB6uGb-CTihb6P0ZOT__sdjUPYGwXE9Q2DSlKWVDaKNR_" ,
@@ -110,7 +110,7 @@ var mensData =  [
         namefull: " San Frissco Men's Carbon Black Casual Loafers" ,
         price :  "1848" ,
         off :  "  ₹3848" ,
-        rating : "5(4)"
+        rating : "5 (4)"
 
     },
     
@@ -119,7 +119,7 @@ var mensData =  [
         namefull: " Ruosh Men's Tan Casual Loafers" ,
         price :  "3990" ,
         off :  "  ₹5990" ,
-        rating : "4(5)"
+        rating : "4 (5)"
 
     },
     {  image_url : "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQaMUuy2V7OwBOo55juD8C2zHu_fwKOqGw-mmqhvjEV2MlsUZN8" ,
@@ -127,7 +127,7 @@ var mensData =  [
         namefull: " Alberto Torresi Men's Men's Maroon Casual Slip-Ons" ,
         price :  "1799" ,
         off :  "₹3799" ,
-        rating : "4(5)"
+        rating : "4 (5)"
 
     },
    
@@ -152,7 +152,7 @@ var mensData =  [
         namefull: " San Frissco Black Mule Shoes" ,
         price :  "1698" ,
         off :  "₹2698" ,
-        rating : " 4.4(9)"
+        rating : " 4.4 (9)"
 
     },
     {  image_url : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQmPyjVMBvcZWXX08PSnED6e3IKT_QJeYhyZ07_X-tqA76qI2-A" ,
@@ -176,14 +176,14 @@ var mensData =  [
         namefull: " Woodland Men's Tobacco Casual Slip-Ons" ,
         price :  "2621" ,
         off :  "   ₹3495" ,
-        rating : "3.3(9)"
+        rating : "3.3 (9)"
     },
     {  image_url : "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRo1ryKGdk6eUKBEgt9fIh-TwAaYzii8DE7L1bfaNJy-D2Pqsk9" ,
         nam : "Bata" ,
         namefull: "Bata Men's Black Casual Slip-Ons" ,
         price :  "906" ,
         off :  "   ₹1066" ,
-        rating : "4(1)"
+        rating : "4 (1)"
     },
 
     {  image_url : "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTe2g0WFZjfABt9VyQpJ6bf9E9y6G-fDmhNanZYxkkSvLmiu1tf" ,
@@ -191,7 +191,7 @@ var mensData =  [
         namefull: " Pavers England Men's Navy Plimsolls" ,
         price :  "4999" ,
         off :  "" ,
-        rating : "5(1)"
+        rating : "5 (1)"
     },
 
     {  image_url : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ45SXSupNjZnd5EYgOZk5b1tCnggvSYidXkQz2H6OijGlq-jWK" ,
@@ -207,7 +207,7 @@ var mensData =  [
         namefull: "Sparx Black Casual Plimsolls" ,
         price :  "499" ,
         off :  "" ,
-        rating : "4.2(74)"
+        rating : "4.2 (74)"
     },
 
     {  image_url : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR2fsCb4KNNlGxu1TRytLgUD8ysZJobGC0dsL_Bx4v-6yFHTjXn" ,
@@ -223,7 +223,7 @@ var mensData =  [
         namefull: "Red Chief Men's Navy/Blue Casual Shoes" ,
         price :  "1999" ,
         off :  "   ₹3999" ,
-        rating : "4.2(152)"
+        rating : "4.2 (152)"
     },
 
     {  image_url : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTWv_MhHBRmEx7G_OMtuN0Gk85Ed7iobRb4sto3G_UCcyd-s_qy" ,
@@ -231,7 +231,7 @@ var mensData =  [
         namefull: "Sparx Black Casual Plimsolls" ,
         price :  "521" ,
         off :  "   ₹549" ,
-        rating : "3.9(54)"
+        rating : "3.9 (54)"
     },
 
     {  image_url : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnRm2Da7udA1PKkS6X09mW_AjLvxFwMjvX9zsXiCsDht5zdIZf" ,
@@ -239,7 +239,7 @@ var mensData =  [
         namefull: "Puma Men's Unisex Lazy Knit Peacoat Slip-Ons" ,
         price :  "1949" ,
         off :  "   ₹2999" ,
-        rating : "4(53)"
+        rating : "4 (53)"
     },
 
     {  image_url : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTBUvpc9EdYJy1MXg3oGVDqYRo5PKa3Fr5ibC04ioSGWFx5Ddkm" ,
@@ -247,7 +247,7 @@ var mensData =  [
         namefull: "Pavers England Men's Brown Plimsolls" ,
         price :  "4999" ,
         off :  "" ,
-        rating : "5(1)"
+        rating : "5 (1)"
     },
 
     {  image_url : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQgP55WsnK-5iCYz47T4KfsC_K-IytrzcZuhF_df4cgt1eFNsCO" ,
@@ -255,7 +255,7 @@ var mensData =  [
         namefull: "Red Chief Men's Tan Casual Slip-Ons" ,
         price :  "2579" ,
         off :  "   ₹4299" ,
-        rating : "4(19)"
+        rating : "4 (19)"
     },
 
     {  image_url : "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSybd27cQTfaLXBvSo6rZvMAjheZ8vrYv5Nqn4Vz8_A8DwDXfiu" ,
@@ -279,7 +279,7 @@ var mensData =  [
         namefull: "Pavers England Men's Black Fisherman Sandals" ,
         price :  "3999" ,
         off :  "" ,
-        rating : "4.7(3)"
+        rating : "4.7 (3)"
     },
 
     {  image_url : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRoteYJ7l6oeeFB4b0BN50zgjzbfx4Q0Y0rnsPyp-kS3B6iZSQc" ,
@@ -287,7 +287,7 @@ var mensData =  [
         namefull: "Arrow Men's Carmine Tan Slip-Ons" ,
         price :  "2598" ,
         off :  "   ₹3999" ,
-        rating : "3.7(3)"
+        rating : "3.7 (3)"
     },
 
     {  image_url : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6ik-OBf8JGwnJjtm20eFUgWA3-cAa48nm3WMujogt9hcb2haN" ,
@@ -295,7 +295,7 @@ var mensData =  [
         namefull: "Allen Cooper Men's Brown Casual Loafers" ,
         price :  "1760" ,
         off :  "   ₹5499" ,
-        rating : "3.3(9)"
+        rating : "3.3 (9)"
     },
 
     {  image_url : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQiWwK65ErUK4LDroO74EDXlv_4jbeyAuSn4RKpxFpxxwfB3nsw" ,
@@ -303,7 +303,7 @@ var mensData =  [
         namefull: "Red Chief Men's Camel Derby Shoes" ,
         price :  "2579" ,
         off :  "   ₹4299" ,
-        rating : "4.3(3)"
+        rating : "4.3 (3)"
     },
 
     {  image_url : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ7jANyZWv2LYxUudNzZmixet99VoW6vSEB1Y9jnKi-Iey39OaD" ,
@@ -319,20 +319,64 @@ var mensData =  [
         namefull: "SOLEPLAY by Westside Grey Perforated Plimsolls" ,
         price :  "799" ,
         off :  "" ,
-        rating : "3.9(151)"
+        rating : "3.9 (151)"
     }
     ];
 
-    mensData.map(function(ele){
+// console.log(typeof Number(mensData[1].rating.trim().split(" ")[0]))
+
+    window.addEventListener("load",function(){
+        displayData(mensData);
+      });
+    
+    
+    function sort(){
+        console.log("inside sort function")
+
+        var selected = document.querySelector("#sort").value
+        console.log(selected)
+    
+        if(selected =="lth"){
+            mensData.sort(function(a,b){
+                return Number(a.price) - Number(b.price)
+            })
+            console.log(mensData)
+            displayData(mensData)   
+        }
+
+        if(selected =="htl"){
+            mensData.sort(function(a,b){
+                return Number(b.price) - Number(a.price) 
+            })
+            console.log(mensData)
+           displayData(mensData)
+        }
+        if(selected == "rating"){
+            mensData.sort(function(a,b){
+                return Number(b.rating.trim().split(" ")[0]) - Number(a.rating.trim().split(" ")[0])
+            })
+            console.log(mensData)
+            displayData(mensData)
+        }
+
+    }
+    
+
+
+function displayData(elem){
+
+    document.querySelector("#box").innerHTML = ""
+
+    mensData.map(function(elem){
  
         var div=document.createElement("div")
         
         var img=document.createElement("img")
-        img.src=ele.image_url;
-    
+        img.src=elem.image_url;
     
         var name=document.createElement("h3")
-        name.innerText=ele.nam;
+        name.innerText=elem.nam;
+
         var bok=document.createElement("img")
         bok.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFEQ9Tf-WEBVla9aEPvqAcra5Qk0ygt5Zn8Q&usqp=CAU"
         bok.setAttribute("id","bok")
@@ -340,19 +384,21 @@ var mensData =  [
         div2.setAttribute("id","div2")
        
         var detail=document.createElement("p")
-        detail.innerText=ele.namefull
+        detail.innerText=elem.namefull
     
         var div3=document.createElement("div")
         div3.setAttribute("id","div3")
         div3.style.display="flex"
     
         var pri=document.createElement("p")
-        pri.innerText=ele.price
+        pri.innerText=elem.price
+
         var off=document.createElement("s")
-        off.innerText=ele.off
+        off.innerText=elem.off
         off.style.paddingLeft = "15px"
+
         var rat=document.createElement("p")
-        rat.innerText=ele.rating
+        rat.innerText=elem.rating
         rat.style.color = "green"
          
     
@@ -365,11 +411,9 @@ var mensData =  [
     
         document.querySelector("#box").append(div);
     
-    })
-     
-    
+    }) 
 
-
+}
 
 // mensData.map(function(ele){
 //     var box = document.createElement("div");
@@ -389,3 +433,6 @@ var mensData =  [
 
 //     document.querySelector("#container").append(box)
 // })
+
+
+
