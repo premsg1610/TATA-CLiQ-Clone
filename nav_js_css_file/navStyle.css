@@ -1,0 +1,363 @@
+body{
+    margin:0;
+}
+
+/* Header Section Navbar basic container styles */
+#navContainer{
+    width: 100%;
+    height: 100px;
+    background-color: #212121;
+    display: flex;
+    font-family: sans-serif;
+}
+
+#navContainer > div:nth-child(1){
+    width:6%;
+}
+
+
+
+/* Navbar Section Area */
+#navContainer > div:nth-child(2){
+    width:88%;
+}
+/* ********************** */
+
+
+
+#navContainer > div:nth-child(3){
+    width:6%;
+}
+
+#navContainer > div:nth-child(3)>div{
+    width:100%;
+    height: 40px;
+    background-color: #000;
+}
+
+
+/* Navbar Middle Section style */
+.navMiddle{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* Navbar logo section */
+.logoHolder{
+    width:6.5%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logoHolder>img{
+    width: 100%;
+}
+/* *********Logo Section Ends here************ */
+
+
+
+
+/* Navbar Middle division into 2 section */
+.navFunctHolder{
+    width:84.5%;
+}
+.navFunctHolder>div:nth-child(1){   
+    background-color: #000;
+    height: 40px;
+}
+
+.navFunctHolder>div:nth-child(2){
+    width: 100%;
+    height: 60px;
+}
+
+
+
+
+/* Top Middle Section Navbar STARTS here*/
+.topMiddleSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.topMiddleSection>div:nth-child(1){
+    width:15%;
+    padding-left: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.topMiddleSection_Menu{
+    display: flex;
+    width: 46%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    color: white;
+    cursor: pointer;
+}
+/* Top Middle Section Navbar ENDS here */
+
+
+
+
+/* bottom Middle Section Navbar */
+.bottomMiddleSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottomMiddleSection>div:nth-child(1){
+    width: 25.5%;
+    height: 60px;
+    display:flex;
+    color: white;
+}
+
+
+
+/* Categories and Brands Style Section  */
+
+.navbarArrowDown{
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+
+
+/********** Search Section ********/
+.bottomMiddleSection>div:nth-child(2){
+    width: 63.5%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.bottomMiddleSection>div:nth-child(2)>div{
+    display: flex;
+    align-items: center;
+    color: #a0a0a0;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #4a4a4a;
+}
+
+.bottomMiddleSection>div:nth-child(2)>div>div:nth-child(1){
+    width: 3%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.bottomMiddleSection>div:nth-child(2)>div>div:nth-child(2){
+    width: 97%;
+    height: 40px;
+}
+
+.bottomMiddleSection input{
+    background-color: #4a4a4a;
+    color: #a0a0a0;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 99%;
+    height:38px;
+}
+
+.bottomMiddleSection input:focus{
+    outline: none;
+}
+
+/************ Search Section ENDS here ***********/
+
+
+
+/*************** Bookmark and Bag Section Style  ***********/
+.bottomMiddleSection>div:nth-child(3){
+    width: 11%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.bottomMiddleSection>div:nth-child(3)>div{
+    width:50%;
+    padding-left: 20%;
+    cursor: pointer;
+}
+
+
+/****************** Categories Dropdown styling STARTS here **************************/
+.dropbtn {
+    width:50%;
+    height: 100%;
+    padding-left: 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: block;
+    width:50%;
+    height: 100%;
+    font-size: 18px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    padding: 14px 16px;
+    text-align: left;
+    width:970px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+    color: grey;
+    padding: 10px 0px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {color: #000;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {
+    background-color: #fff;
+    width:fit-content;
+    padding-right: 10px;
+    height: 100%;
+    color: #000;
+  }
+
+  /***************** Categories Dropdown styling ENDS here *******************/
+
+
+  /* Right side Menu items in Category Section */
+  .dropdown-content > div {
+    display: flex;
+    /* position: absolute; */
+    background-color: #f1f1f1;
+    padding: 14px 16px;
+    justify-content: space-between;
+    /* width: 100%; */
+  }
+
+  .dropdown-content > div > div:nth-child(1){
+    width: 20%;
+  }
+
+  .dropdown-content > div > div:nth-child(2){
+    width: 75%;
+  }
+
+
+/* ***************************************************** */
+
+/****************** Brands Dropdown styling STARTS here **************************/
+.dropbtn_Br {
+  width:50%;
+  height: 100%;
+  padding-left: 20px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown_Br {
+  position: relative;
+  display: block;
+  width:50%;
+  height: 100%;
+  font-size: 18px;
+}
+
+.dropdown-content_Br {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  text-align: left;
+  width:840px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content_Br a {
+  color: grey;
+  padding: 10px 0px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content_Br a:hover {color: #000;}
+
+.dropdown_Br:hover .dropdown-content_Br {display: block;}
+
+.dropdown_Br:hover .dropbtn_Br {
+  background-color: #fff;
+  width:fit-content;
+  padding-right: 10px;
+  height: 100%;
+  color: #000;
+}
+
+/***************** Brand Dropdown styling ENDS here *******************/
+
+
+/* Right side Menu items in Category Section */
+.dropdown-content_Br > div {
+  display: flex;
+  /* position: absolute; */
+  background-color: #f1f1f1;
+  /* padding: 14px 16px; */
+  justify-content: space-between;
+  /* width: 100%; */
+}
+
+.dropdown-content_Br > div > div:nth-child(1){
+  width: 20%;
+  padding: 14px 20px;
+}
+
+.dropdown-content_Br > div > div:nth-child(2){
+  width: 45%;
+  padding: 14px 16px;
+}
+
+.dropdown-content_Br > div > div:nth-child(3){
+  width: 35%;
+  background-color: #dbd9d9;
+}
+
+
+/* ****************************************************** */
+
+#cateTable, #brandTable{
+  width: 100%;
+}
+
+
+#imgList>div{
+  display:flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#imgList img{
+  border-radius: 50%;
+  cursor: pointer;
+}
+  
