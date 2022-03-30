@@ -4,208 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Mobile Page</title>
+    <link rel="stylesheet" href="mobile.css">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous">    
+    </script>
 </head>
 
-<style>
-    body{
-        background-color: #ececec;
-    }
-    #container{
-        display: flex;
-        width:100% ;
-        /* border: solid; */
-        margin-top: 10px;
-    }
-    .select{
-        background-color: white;
-        font-weight: bold;
-    }
-    select{
-        height: 40px;
-        width: 25%;
-        margin-left: 60%;
-        margin-top: 2%;
-        background-color: rgb(230, 230, 230);
-        cursor: pointer;
-        border-radius: 4px;
-       
-    }
-    #box{
-        /* border: solid; */
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        grid-template-rows: repeat(7,400px);
-        /* gap: 2px; */
-        margin: auto;
-        /* justify-content: space-around; */
-        padding: 30px ;
-        box-sizing: border-box;
-        line-height: 17px;
-        
-    }
-    #box>div{
-        /* margin: auto; */
-        text-align: left;
-        /* border: solid; */
-        width: 80%;
-        cursor: pointer;
-    }
-    #left{
-        width: 80%;height: 900px;
-        /* border: solid coral; */
-        margin-top: 28px;
-        margin-left: 65px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        padding: 2px 5px;
-        background-color: white;
-    }
-    #left>div{
-        display: flex;
-        justify-content: space-between;
-        padding: 9px;
-        font-weight: bold;
-    }
-    img{
-        width: 90%;
-        height: 200px;
-        margin-left: 8px;
-    }
-    img:hover{
-        transform:scale(1.025);
-        transition: transform .3s;
-    }
-   .first{
-       /* border: solid; */
-       background-color:#f3f3f3 ;
-       border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-       font-weight: bold;
-       width: 96%;
-       margin-left: -4px;
-       margin-top: -2px;
-   }
-   .red{
-       color: #e04a7d;
-   }
-
-    button{
-        border-radius: 18px;
-        padding: 5px;
-        color: rgb(148, 146, 146);
-        background-color: rgb(242, 241, 241);
-        cursor: pointer;
-        border: 0px;
-    }
-    span{
-        cursor: pointer;
-    }
-    .bt{
-        margin-left: -187px;
-    }
-    .bt1{
-        margin-left: -146px;
-        width: 120px;
-    }
-    .bt2{
-        margin-left: -166px;
-    }
-    hr{
-        width: 90%;
-    }
-    
-    
-    #div2{
-        /* border: solid; */
-        display: flex;
-        height: 38px;
-        justify-content: space-between;
-        
-    }
-    #div3{
-        /* border: solid; */
-        display: flex;
-        margin-top: -11px;
-        justify-content: space-around;
-        height: 30px;
-        padding: 3px 90px;
-        box-sizing: border-box;
-        margin-left: -100px;
-    }
-    #div3>p{
-        color: black;
-        font-weight: bold;
-    }
-    #bok{
-        height: 18px;
-        width: 20px;
-        margin-top: 16px;
-        cursor: pointer;
-    }
-    p{
-        margin-top: 1px;
-        color: gray;
-    }
-    s{
-        color: gray;
-        font-size: 12px;
-        margin-top: 2px;
-    }
-    body{
-        text-align: center;
-    }h1+div{
-        margin-top: -15px;
-        font-size: medium;
-    }
- #feedback{
-        /* border: solid; */
-        height: 70px;
-        width: 70%;
-        display: flex;
-        background-color: white;
-        border-radius: 4px;
-        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;   
-        margin-left: 27%;
-         cursor: pointer;
-
-        /* justify-content: space-around; */
-}
-#fig{
-width: 43%;
-margin-top: -73px;
-margin-left: 12%;
-
-}
-#fb{
-  color: #e04a7d;
-  font-size: 20px;
-  margin-top: 20px;
-  font-weight: bold;
-}
-#lastbtn{
-    border: solid black;
-    margin-left: 20%;
-    margin-top: 20px;
-    padding: 8px 15px 8px 15px;
-    border-radius: 20PX;
-    background-color: #ececec;
-    font-weight: bolder;
-    color: black;
-    font-weight: bold;
-
-}
-#feedback>div{
-    margin-top: -2px;
-    line-height: 5px;
-    margin-left: 4px;
-}
-#feedback>div>p{
-color: rgb(72, 72, 72);
-}
 
 
-</style>
 <body>
     <h1>Smartphones</h1>
     <div>598 Products</div>
@@ -219,7 +27,7 @@ color: rgb(72, 72, 72);
     <div id="container">
         <div id="left">
             <div class="first">
-                <span>Filter</span>
+                <span>Filters</span>
                 <span class="red">Clear All</span>
             </div>
             <hr>
@@ -268,6 +76,16 @@ color: rgb(72, 72, 72);
         </div>
         <div id="box"></div>
     </div>
+    <div id="feedback">
+        <div> 
+            <h3>We'd love to hear from you</h3>
+            <p>This will just take 2 minutes of your time</p>
+        </div>
+        <img id ="fig" src="https://www.tatacliq.com/src/experience-score-feedback/images/banner.117c73c2f598.svg" alt="">
+        <p id="fb">Give Feedback ></p>
+    </div>
+    <button id="lastbtn">Show more Products</button>
+    
     <div id="feedback">
         <div> 
             <h3>We'd love to hear from you</h3>
