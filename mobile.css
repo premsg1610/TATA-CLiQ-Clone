@@ -149,5 +149,50 @@
         margin-top: -15px;
         font-size: medium;
     }
+    #feedback{
+        /* border: solid; */
+        height: 70px;
+        width: 70%;
+        display: flex;
+        background-color: white;
+        border-radius: 4px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;   
+        margin-left: 27%;
+         cursor: pointer;
+
+        /* justify-content: space-around; */
+}
+#fig{
+width: 43%;
+margin-top: -73px;
+margin-left: 12%;
+
+}
+#fb{
+  color: #e04a7d;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+#lastbtn{
+    border: solid black;
+    margin-left: 20%;
+    margin-top: 20px;
+    padding: 8px 15px 8px 15px;
+    border-radius: 20PX;
+    background-color: #ececec;
+    font-weight: bolder;
+    color: black;
+    font-weight: bold;
+
+}
+#feedback>div{
+    margin-top: -2px;
+    line-height: 5px;
+    margin-left: 4px;
+}
+#feedback>div>p{
+color: rgb(72, 72, 72);
+}
 
 
