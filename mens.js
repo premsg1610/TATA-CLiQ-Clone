@@ -144,21 +144,66 @@ var mensData =  [
     },
     ];
 
-mensData.map(function(ele){
-    var box = document.createElement("div");
-    var img1 = document.createElement("img")
-    img1.src=ele.image_url 
-    img1.setAttribute
-    var Productname = document.createElement("h3")
-    Productname.innerText = ele.nam
-    var fullname = document.createElement("p")
-    fullname.innerText = ele.namefull
-    var cost = document.createElement("h3")
-    cost.innerText = ele.price
-    var ratings = document.createElement("p")
-    ratings.innerText = ele.rating
+    mensData.map(function(ele){
+ 
+        var div=document.createElement("div")
+        
+        var img=document.createElement("img")
+        img.src=ele.image_url;
+    
+    
+        var name=document.createElement("h3")
+        name.innerText=ele.nam;
+        var bok=document.createElement("img")
+        bok.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFEQ9Tf-WEBVla9aEPvqAcra5Qk0ygt5Zn8Q&usqp=CAU"
+        bok.setAttribute("id","bok")
+        var div2=document.createElement("div")
+        div2.setAttribute("id","div2")
+       
+        var detail=document.createElement("p")
+        detail.innerText=ele.namefull
+    
+        var div3=document.createElement("div")
+        div3.setAttribute("id","div3")
+    
+        var pri=document.createElement("p")
+        pri.innerText=ele.price
+        // var off=document.createElement("s")
+        // off.innerText=ele.off
+        var rat=document.createElement("p")
+        rat.innerText=ele.rating
+         
+    
+        // "<i class="fa-light fa-bookmark"></i>"
+     
+    
+        div2.append(name,bok)
+        div3.append(pri)
+        div.append(img,div2,detail,div3,rat)
+    
+        document.querySelector("#box").append(div);
+    
+    })
+     
+    
 
-    box.append(img1,Productname,fullname,cost,ratings)
 
-    document.querySelector("#container").append(box)
-})
+
+// mensData.map(function(ele){
+//     var box = document.createElement("div");
+//     var img1 = document.createElement("img")
+//     img1.src=ele.image_url 
+//     img1.setAttribute
+//     var Productname = document.createElement("h3")
+//     Productname.innerText = ele.nam
+//     var fullname = document.createElement("p")
+//     fullname.innerText = ele.namefull
+//     var cost = document.createElement("h3")
+//     cost.innerText = ele.price
+//     var ratings = document.createElement("p")
+//     ratings.innerText = ele.rating
+
+//     box.append(img1,Productname,fullname,cost,ratings)
+
+//     document.querySelector("#container").append(box)
+// })

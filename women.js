@@ -321,40 +321,89 @@ var womensData = [
       },
   ];
   
-  womensData.map(function(elem){
-      var box = document.createElement("div");
-      box.setAttribute("class","bag");
-  
-      var imgDiv = document.createElement("div");
-      imgDiv.setAttribute("class","imgDiv");
 
-      var img = document.createElement("img");
-      img.src = elem.image_url;
+  womensData.map(function(ele){
+ 
+    var div=document.createElement("div")
+    
+    var img=document.createElement("img")
+    img.src=ele.image_url;
 
-      imgDiv.append(img);
 
-      var head = document.createElement("h4");
-      head.innerText = elem.head;
-      head.setAttribute("class","head");
+    var name=document.createElement("h3")
+    name.innerText=ele.head;
+    var bok=document.createElement("img")
+    bok.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFEQ9Tf-WEBVla9aEPvqAcra5Qk0ygt5Zn8Q&usqp=CAU"
+    bok.setAttribute("id","bok")
+    var div2=document.createElement("div")
+    div2.setAttribute("id","div2")
+   
+    var detail=document.createElement("p")
+    detail.innerText=ele.name
 
-      var name = document.createElement("p");
-      name.textContent = elem.name;
-      name.setAttribute("class","para");
+    var div3=document.createElement("div")
+    div3.setAttribute("id","div3")
 
-      var priceDiv = document.createElement("div");
-      priceDiv.setAttribute("class","innerDiv");
+    var pri=document.createElement("p")
+    pri.innerText=ele.price
+
+    var off=document.createElement("s")
+    off.innerText=ele.strikedoffprice
+    var rat=document.createElement("p")
+    rat.innerText=ele.rating
+     
+
+    // "<i class="fa-light fa-bookmark"></i>"
+ 
+
+    div2.append(name,bok)
+    div3.append(pri,off)
+    div.append(img,div2,detail,div3,rat)
+
+    document.querySelector("#box").append(div);
+
+})
+ 
+
+
+
+
+
+
+  // womensData.map(function(elem){
+  //     var box = document.createElement("div");
+  //     box.setAttribute("class","bag");
   
-      var price = document.createElement("p");
-      price.innerText = elem.price;
-      price.style.fontWeight = "bold"
+  //     var imgDiv = document.createElement("div");
+  //     imgDiv.setAttribute("class","imgDiv");
+
+  //     var img = document.createElement("img");
+  //     img.src = elem.image_url;
+
+  //     imgDiv.append(img);
+
+  //     var head = document.createElement("h4");
+  //     head.innerText = elem.head;
+  //     head.setAttribute("class","head");
+
+  //     var name = document.createElement("p");
+  //     name.textContent = elem.name;
+  //     name.setAttribute("class","para");
+
+  //     var priceDiv = document.createElement("div");
+  //     priceDiv.setAttribute("class","innerDiv");
   
-      var strikedoffprice = document.createElement("p");
-      strikedoffprice.innerText = elem.strikedoffprice; 
-      strikedoffprice.style.textDecoration = "line-through";
-      strikedoffprice.style.fontSize="14px"
+  //     var price = document.createElement("p");
+  //     price.innerText = elem.price;
+  //     price.style.fontWeight = "bold"
   
-      priceDiv.append(price,strikedoffprice);
+  //     var strikedoffprice = document.createElement("p");
+  //     strikedoffprice.innerText = elem.strikedoffprice; 
+  //     strikedoffprice.style.textDecoration = "line-through";
+  //     strikedoffprice.style.fontSize="14px"
   
-      box.append(imgDiv,head,name,priceDiv);
-      document.querySelector("#product").append(box);
-  });
+  //     priceDiv.append(price,strikedoffprice);
+  
+  //     box.append(imgDiv,head,name,priceDiv);
+  //     document.querySelector("#product").append(box);
+  // });
