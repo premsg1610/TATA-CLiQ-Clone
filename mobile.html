@@ -9,6 +9,7 @@
     crossorigin="anonymous">    
     </script>
 </head>
+
 <style>
     body{
         background-color: #ececec;
@@ -46,6 +47,13 @@
         line-height: 17px;
         
     }
+    #box>div{
+        /* margin: auto; */
+        text-align: left;
+        /* border: solid; */
+        width: 80%;
+        cursor: pointer;
+    }
     #left{
         width: 80%;height: 900px;
         /* border: solid coral; */
@@ -60,6 +68,16 @@
         display: flex;
         justify-content: space-between;
         padding: 9px;
+        font-weight: bold;
+    }
+    img{
+        width: 90%;
+        height: 200px;
+        margin-left: 8px;
+    }
+    img:hover{
+        transform:scale(1.025);
+        transition: transform .3s;
     }
    .first{
        /* border: solid; */
@@ -99,22 +117,8 @@
     hr{
         width: 90%;
     }
-    img{
-        width: 90%;
-        height: 200px;
-        margin-left: 8px;
-    }
-    img:hover{
-        transform:scale(1.025);
-        transition: transform .3s;
-    }
-    #box>div{
-        /* margin: auto; */
-        text-align: left;
-        /* border: solid; */
-        width: 80%;
-        cursor: pointer;
-    }
+    
+    
     #div2{
         /* border: solid; */
         display: flex;
@@ -164,7 +168,8 @@
     <h1>Smartphones</h1>
     <div>598 Products</div>
     <select id="sort" onchange="sort()">
-        <option value="" class="select">Popularity</option>
+        <option value="---" class="select">Sort By</option>
+        <option value="rating" class="select">Popularity</option>
         <option value="HL" class="select">High-Low</option>
         <option value="LH" class="select">Low-High</option>
         <option value="R" class="select">Rating</option>   

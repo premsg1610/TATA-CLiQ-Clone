@@ -1,4 +1,169 @@
-#start{
+
+
+body{
+    /* background-color: #ececec; */
+    background-color: white;
+}
+#container{
+    display: flex;
+    width:100% ;
+    /* border:1px solid red; */
+    margin-top: 10px;
+    /* justify-content: space-evenly; */
+}
+.select{
+    background-color: white;
+    font-weight: bold;
+}
+select{
+    height: 40px;
+    width: 25%;
+    margin-left: 60%;
+    margin-top: 2%;
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+    border-radius: 4px;
+   
+}
+#box{
+    /* border:1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(7,500px);
+    /* gap: 2px; */
+    /* margin: auto; */
+    margin-right:40px;
+    /* justify-content: space-around; */
+    padding: 20px ;
+    box-sizing: border-box;
+    line-height: 17px;
+    gap:10px;
+    
+}
+#box>div{
+    /* margin: auto; */
+    text-align: left;
+    /* border:1px solid teal; */
+    /* width: 100%; */
+    cursor: pointer;
+    /* border-radius: 5px 5px 0px 0px; */
+}
+img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    /* margin-left: 8px; */
+}
+img:hover{
+    transform:scale(1.025);
+    transition: transform .3s;
+}
+#left{
+    width: 35%;
+    height: 900px;
+    /* border:1px solid coral; */
+    margin: 20px ;
+    margin-left: 65px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 2px 5px;
+    background-color: white;
+}
+#left>div{
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 9px;
+    font-weight:bold;
+
+}
+.first{
+   /* border: solid; */
+   background-color:#f3f3f3 ;
+   border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   font-weight: bold;
+   width: 96%;
+   margin-left: -4px;
+   margin-top: -2px;
+}
+.red{
+   color: #e04a7d;
+}
+
+button{
+    border-radius: 18px;
+    padding: 5px;
+    color: rgb(148, 146, 146);
+    background-color: rgb(242, 241, 241);
+    cursor: pointer;
+    border: 0px;
+    font-size:14px;
+}
+span{
+    cursor: pointer;
+}
+.bt{
+    /* border:1px solid; */
+    margin-right: 190px;
+}
+.bt1{
+    margin-right:200px
+}
+.bt2{
+    margin-right: 190px;
+}
+hr{
+    width: 90%;
+}
+
+
+#div2{
+    /* border: solid; */
+    display: flex;
+    height: 38px;
+    justify-content: space-between;
+    
+}
+#div3{
+    /* border: solid orange; */
+    /* display: flex; */
+    margin-top: -11px;
+    /* justify-content: space-around; */
+    height: 30px;
+    /* padding: 3px 90px; */
+    box-sizing: border-box;
+    /* margin-left: -100px; */
+}
+#div3>p{
+    color: black;
+    font-weight: bold;
+}
+#bok{
+    height: 18px;
+    width: 20px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+p{
+    margin-top: 1px;
+    color: gray;
+}
+s{
+    color: gray;
+    font-size: 12px;
+    margin-top: 2px;
+}
+body{
+    text-align: center;
+}h1+div{
+    margin-top: -15px;
+    font-size: medium;
+}
+
+
+
+/* #start{
     border: 1px solid red;
     height: 4800px;
     width: 100%;
@@ -14,13 +179,13 @@ p{
 }
 #container{
     height: 4601px;
-    width: 100%;
+    width: 100%; */
     /* border: 1px solid black; */
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
     padding-top: 20px;
-    margin-top: 20px;
-   
+    margin-top: 20px; */
+/*    
 }
 #filter{
     height: 2500px;
@@ -35,13 +200,13 @@ p{
     grid-template-rows: auto;
     gap: 20px 0px;
     height: 90%;
-    width: 65%;
+    width: 65%; */
     /* border: 1px solid blue; */
-    margin-left: -200px;
+    /* margin-left: -200px;
 }
-.bag{
+.bag{ */
     /* border:1px solid red ; */
-    height: 394.25px;
+    /* height: 394.25px;
     width: 220px;
     cursor: pointer;
 } 
@@ -54,11 +219,11 @@ p{
 img{
     height: 295px;
     width: 220px;
-    border-radius: 5px;
-}
-.imgDiv{
+    border-radius: 5px; */
+/* }
+.imgDiv{ */
     /* border: 1px solid green; */
-    height: 295px;
+    /* height: 295px;
     width: 220px;
 }
 .para{
@@ -90,5 +255,5 @@ img{
 }
 #top>div:nth-child(2){
     color: #dd376f;
-}
+} */
 
