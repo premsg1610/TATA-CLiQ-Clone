@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous">    
+    </script>
+</head>
+<style>
+    body{
+        background-color: #ececec;
+    }
+    #container{
+        display: flex;
+        width:100% ;
+        /* border: solid; */
+        margin-top: 10px;
+    }
+    .select{
+        background-color: white;
+        font-weight: bold;
+    }
+    select{
+        height: 40px;
+        width: 25%;
+        margin-left: 60%;
+        margin-top: 2%;
+        background-color: rgb(230, 230, 230);
+        cursor: pointer;
+        border-radius: 4px;
+       
+    }
+    #box{
+        /* border: solid; */
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(7,400px);
+        /* gap: 2px; */
+        margin: auto;
+        /* justify-content: space-around; */
+        padding: 30px ;
+        box-sizing: border-box;
+        line-height: 17px;
+        
+    }
+    #left{
+        width: 80%;height: 900px;
+        /* border: solid coral; */
+        margin-top: 28px;
+        margin-left: 65px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 2px 5px;
+        background-color: white;
+    }
+    #left>div{
+        display: flex;
+        justify-content: space-between;
+        padding: 9px;
+    }
+   .first{
+       /* border: solid; */
+       background-color:#f3f3f3 ;
+       border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+       font-weight: bold;
+       width: 96%;
+       margin-left: -4px;
+       margin-top: -2px;
+   }
+   .red{
+       color: #e04a7d;
+   }
+
+    button{
+        border-radius: 18px;
+        padding: 5px;
+        color: rgb(148, 146, 146);
+        background-color: rgb(242, 241, 241);
+        cursor: pointer;
+        border: 0px;
+    }
+    span{
+        cursor: pointer;
+    }
+    .bt{
+        margin-left: -187px;
+    }
+    .bt1{
+        margin-left: -146px;
+        width: 120px;
+    }
+    .bt2{
+        margin-left: -166px;
+    }
+    hr{
+        width: 90%;
+    }
+    img{
+        width: 90%;
+        height: 200px;
+        margin-left: 8px;
+    }
+    img:hover{
+        transform:scale(1.025);
+        transition: transform .3s;
+    }
+    #box>div{
+        /* margin: auto; */
+        text-align: left;
+        /* border: solid; */
+        width: 80%;
+        cursor: pointer;
+    }
+    #div2{
+        /* border: solid; */
+        display: flex;
+        height: 38px;
+        justify-content: space-between;
+        
+    }
+    #div3{
+        /* border: solid; */
+        display: flex;
+        margin-top: -11px;
+        justify-content: space-around;
+        height: 30px;
+        padding: 3px 90px;
+        box-sizing: border-box;
+        margin-left: -100px;
+    }
+    #div3>p{
+        color: black;
+        font-weight: bold;
+    }
+    #bok{
+        height: 18px;
+        width: 20px;
+        margin-top: 16px;
+        cursor: pointer;
+    }
+    p{
+        margin-top: 1px;
+        color: gray;
+    }
+    s{
+        color: gray;
+        font-size: 12px;
+        margin-top: 2px;
+    }
+    body{
+        text-align: center;
+    }h1+div{
+        margin-top: -15px;
+        font-size: medium;
+    }
+
+
+</style>
+<body>
+    <h1>Smartphones</h1>
+    <div>598 Products</div>
+    <select id="sort" onchange="sort()">
+        <option value="" class="select">Popularity</option>
+        <option value="HL" class="select">High-Low</option>
+        <option value="LH" class="select">Low-High</option>
+        <option value="R" class="select">Rating</option>   
+    </select>
+    <div id="container">
+        <div id="left">
+            <div class="first">
+                <span>Filter</span>
+                <span class="red">Clear All</span>
+            </div>
+            <hr>
+            <div>Department</div>
+            <button class="bt">Electonics</button>
+            <hr>
+            <div>Category</div>
+            <button class="bt1">Mobile Phones <i class="fa-duotone fa-xmark"></i></button>
+            <hr>
+            <div>Product Type</div>
+            <button class="bt2">smartphone <i class="fa-duotone fa-xmark"></i></button>
+            <hr>
+            <div>
+                <span>Brand</span><span>+</span>
+            </div>
+            <hr>
+            <div>
+                <span>price</span><span>+</span>
+            </div>
+            <hr>
+            <div>
+                <span>RAM Capacity</span><span>+</span>
+            </div>
+            <hr>
+            <div>
+                <span>Front Camera</span><span>+</span>
+            </div>
+            <hr>
+            <div>
+                <span>Primary</span><span>+</span>
+            </div>
+            <hr>
+            <div>
+                <span>Colour</span><span>+</span>
+            </div>
+            <hr>
+            <div>
+                <span>Availability</span><span>+</span>
+            </div>
+            <hr>
+            <div>
+                <span>Exchange Available</span><span>+</span>
+            </div>
+
+
+        </div>
+        <div id="box"></div>
+    </div>
+    
+
+</body>
+</html>
+
+<script src="mobile.js"
+
+></script>
