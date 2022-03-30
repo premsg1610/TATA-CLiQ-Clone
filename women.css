@@ -1,0 +1,94 @@
+#start{
+    border: 1px solid red;
+    height: 4800px;
+    width: 100%;
+    background-color: #ececec;
+}
+h1{ 
+    text-align: center;
+   font-family: 'Lato', sans-serif;
+}
+p{
+    text-align: center;
+    margin-top: -20px;
+}
+#container{
+    height: 4601px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin-top: 20px;
+   
+}
+#filter{
+    height: 2500px;
+    width: 17%;
+    background-color: white;
+    border-radius: 13px 13px 0px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+ #product{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 20px 0px;
+    height: 90%;
+    width: 65%;
+    /* border: 1px solid blue; */
+    margin-left: -200px;
+}
+.bag{
+    /* border:1px solid red ; */
+    height: 394.25px;
+    width: 220px;
+    cursor: pointer;
+} 
+.innerDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-right:150px;
+    margin-top: 25px;
+}
+img{
+    height: 295px;
+    width: 220px;
+    border-radius: 5px;
+}
+.imgDiv{
+    /* border: 1px solid green; */
+    height: 295px;
+    width: 220px;
+}
+.para{
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: -18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.head{
+    margin-top: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sorting{
+    padding: 10px;
+    margin-left: 1200px;
+}
+#top{
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+   background-color: #ececec;
+   border-radius: 13px 13px 0px 0px;
+}
+#top>div{
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#top>div:nth-child(2){
+    color: #dd376f;
+}
+
