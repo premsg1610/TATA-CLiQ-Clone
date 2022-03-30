@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://kit.fontawesome.com/24c494a6b6.js"
-    crossorigin="anonymous">    
-    </script>
 </head>
 
 <style>
@@ -161,6 +158,51 @@
         margin-top: -15px;
         font-size: medium;
     }
+ #feedback{
+        /* border: solid; */
+        height: 70px;
+        width: 70%;
+        display: flex;
+        background-color: white;
+        border-radius: 4px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;   
+        margin-left: 27%;
+         cursor: pointer;
+
+        /* justify-content: space-around; */
+}
+#fig{
+width: 43%;
+margin-top: -73px;
+margin-left: 12%;
+
+}
+#fb{
+  color: #e04a7d;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+#lastbtn{
+    border: solid black;
+    margin-left: 20%;
+    margin-top: 20px;
+    padding: 8px 15px 8px 15px;
+    border-radius: 20PX;
+    background-color: #ececec;
+    font-weight: bolder;
+    color: black;
+    font-weight: bold;
+
+}
+#feedback>div{
+    margin-top: -2px;
+    line-height: 5px;
+    margin-left: 4px;
+}
+#feedback>div>p{
+color: rgb(72, 72, 72);
+}
 
 
 </style>
@@ -226,6 +268,15 @@
         </div>
         <div id="box"></div>
     </div>
+    <div id="feedback">
+        <div> 
+            <h3>We'd love to hear from you</h3>
+            <p>This will just take 2 minutes of your time</p>
+        </div>
+        <img id ="fig" src="https://www.tatacliq.com/src/experience-score-feedback/images/banner.117c73c2f598.svg" alt="">
+        <p id="fb">Give Feedback ></p>
+    </div>
+    <button id="lastbtn">Show more Products</button>
     
 
 </body>
