@@ -30,7 +30,8 @@ select{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
-    /* gap: 2px; */
+
+    
     /* margin: auto; */
     margin-right:40px;
     /* justify-content: space-around; */
@@ -127,18 +128,19 @@ hr{
 }
 #div3{
     /* border: solid orange; */
-    /* display: flex; */
+    display: flex;
     margin-top: -11px;
     /* justify-content: space-around; */
     height: 30px;
     /* padding: 3px 90px; */
     box-sizing: border-box;
-    /* margin-left: -100px; */
+    /* margin-left: 100px; */
 }
 #div3>p{
     color: black;
     font-weight: bold;
 }
+
 #bok{
     height: 18px;
     width: 20px;
@@ -160,7 +162,6 @@ body{
     margin-top: -15px;
     font-size: medium;
 }
-
 
 
 /* #start{
