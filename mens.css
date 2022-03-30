@@ -29,6 +29,8 @@
         display: grid;
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: auto;
+        
+
         /* gap: 2px; */
         /* margin: auto; */
         margin-right:40px;
@@ -43,7 +45,7 @@
         /* margin: auto; */
         text-align: left;
         /* border:1px solid teal; */
-        /* width: 100%; */
+        width: 100%;
         cursor: pointer;
         /* border-radius: 5px 5px 0px 0px; */
     }
@@ -104,7 +106,7 @@
     }
     .bt{
         /* border:1px solid; */
-        margin-right: 190px;
+        margin-right: 185px;
     }
     .bt1{
         margin-right:200px

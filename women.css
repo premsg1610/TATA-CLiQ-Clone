@@ -30,7 +30,8 @@ select{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
-    /* gap: 5px; */
+
+    
     /* margin: auto; */
     margin-right:40px;
     /* justify-content: space-around; */
@@ -105,13 +106,13 @@ span{
 }
 .bt{
     /* border:1px solid; */
-    margin-right: 190px;
+    margin-right: 130px;
 }
 .bt1{
-    margin-right:200px
+    margin-right:155px
 }
 .bt2{
-    margin-right: 190px;
+    margin-right: 145px;
 }
 hr{
     width: 90%;
