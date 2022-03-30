@@ -29,8 +29,8 @@ select{
     /* border:1px solid black; */
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(7,500px);
-    /* gap: 2px; */
+    grid-template-rows: auto;
+    /* gap: 5px; */
     /* margin: auto; */
     margin-right:40px;
     /* justify-content: space-around; */
@@ -133,12 +133,13 @@ hr{
     height: 30px;
     /* padding: 3px 90px; */
     box-sizing: border-box;
-    /* margin-left: -100px; */
+    /* margin-left: 100px; */
 }
 #div3>p{
     color: black;
     font-weight: bold;
 }
+
 #bok{
     height: 18px;
     width: 20px;
@@ -160,7 +161,6 @@ body{
     margin-top: -15px;
     font-size: medium;
 }
-
 
 
 /* #start{

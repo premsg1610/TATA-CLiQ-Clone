@@ -28,7 +28,7 @@
         /* border:1px solid black; */
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: repeat(7,500px);
+        grid-template-rows: auto;
         /* gap: 2px; */
         /* margin: auto; */
         margin-right:40px;
