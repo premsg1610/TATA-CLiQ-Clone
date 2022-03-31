@@ -166,7 +166,7 @@ img{
 }
 #last-3rd{
     /* border:1px solid blue; */
-    height:530px;
+    height:500px;
     width:85%;
     background-color:white ;
     display:flex;
@@ -185,6 +185,7 @@ img{
     font-size:13px;
     font-family: sans-serif;
     /* border:1px solid; */
+    margin-bottom:10px;
 
 }
 .col>p:first-child{
