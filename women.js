@@ -450,8 +450,14 @@ function displayData(elem){
 
     document.querySelector("#box").append(div);
 
- })
+
+});
+
+
+
  
+ 
+
 
 }
 

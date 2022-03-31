@@ -29,8 +29,6 @@
         display: grid;
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: auto;
-        
-
         /* gap: 2px; */
         /* margin: auto; */
         margin-right:40px;
@@ -429,3 +427,43 @@ img:hover{
     overflow: hidden;
     transition-duration: 0.3s;
 }*/
+
+/* #feedback{
+        margin-left: 30%;
+        border: 1px;
+        height: 100px;
+        width: 70%;
+        
+        display: flex;
+        gap: 10px;
+        box-sizing: border-box;
+        padding: 10px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;       
+    
+}
+#feedimag{
+    margin-top: -70px;
+    width: 300px;
+    pointer-events: none;
+} 
+#feedp{
+   margin: auto;
+   color: red;
+   cursor: pointer;
+   font-weight: bolder;
+}
+ #lastbutton{
+    border: 1px solid black;
+    margin-left: 60%;
+    margin-top: 20px;
+    padding: 10px 40px 10px 40px;
+    border-radius: 20PX;
+    background-color: #ececec;
+    font-weight: bolder;
+}
+ */
+
+
+
