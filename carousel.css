@@ -1,0 +1,33 @@
+
+.carousel-indicators{
+    /* border:1px solid; */
+    justify-content: flex-end;
+    margin-right: 50px;
+    
+}
+.carousel-control-prev{
+    border:1px;
+    /* background-color: grey; */
+    padding-right: 80px;
+
+}
+.carousel-control-next{
+    border:1px;
+    /* background-color: grey; */
+    padding-left: 80px;
+}
+.carousel-control-next-icon{
+    background-color:#faeded;
+    height:50px;
+    width:50px;
+    /* border:1px solid; */
+    border-radius:50px;
+}
+.carousel-control-prev-icon{
+    background-color: #faeded;
+    height:50px;
+    width:50px;
+    /* border:1px solid; */
+    border-radius:50px
+
+}
