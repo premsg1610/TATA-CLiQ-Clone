@@ -11,19 +11,15 @@
     crossorigin="anonymous">    
     </script>
 </head>
-
-
-
-
 <body>
     <h1>Smartphones</h1>
     <div>598 Products</div>
     <select id="sort" onchange="sort()">
-        <option value="---" class="select">Sort By</option>
-        <option value="rating" class="select">Popularity</option>
-        <option value="HL" class="select">High-Low</option>
-        <option value="LH" class="select">Low-High</option>
-        <option value="R" class="select">Rating</option>   
+        <option value="---" >Sort By</option>
+        <option value="rating" >Popularity</option>
+        <option value="lth" >Price Low to High</option>
+        <option value="htl" >Price Hogh to Low</option>
+        <!-- <option value="R" >Rating</option>    -->
     </select>
     <div id="container">
         <div id="left">
@@ -72,20 +68,9 @@
             <div>
                 <span>Exchange Available</span><span>+</span>
             </div>
-
-
         </div>
         <div id="box"></div>
     </div>
-    <div id="feedback">
-        <div> 
-            <h3>We'd love to hear from you</h3>
-            <p>This will just take 2 minutes of your time</p>
-        </div>
-        <img id ="fig" src="https://www.tatacliq.com/src/experience-score-feedback/images/banner.117c73c2f598.svg" alt="">
-        <p id="fb">Give Feedback ></p>
-    </div>
-    <button id="lastbtn">Show more Products</button>
     
     <div id="feedback">
         <div> 
@@ -96,11 +81,8 @@
         <p id="fb">Give Feedback ></p>
     </div>
     <button id="lastbtn">Show more Products</button>
-    
 
 </body>
 </html>
 
-<script src="mobile.js"
-
-></script>
+<script src="mobile.js"></script>
