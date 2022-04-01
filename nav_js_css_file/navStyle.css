@@ -113,6 +113,56 @@ body{
 
 
 
+/*********************** SignIn / SignUp Section **********************/
+
+#popDisplay {
+  background-color: #ff1744;
+  padding: 10px 25px;
+  border-radius: 25px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#popIcon {
+  margin-right: 10px;
+}
+
+#arrow {
+  margin-top: 33px;
+  background-color: white;
+  content: "   ";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+  z-index: 3;
+  border: none;
+  margin-left: 130px;
+  transform: rotate(225deg);
+  /* display: none; */
+}
+
+#boxhov {
+  margin-top: -10px;
+  width: 300px;
+  /* padding: 50px; */
+  position: absolute;
+  margin-left: 405px;
+  z-index: 3;
+  display: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#dummy:hover + #boxhov,
+#boxhov:hover {
+  display: block;
+}
+
+/*********************** SignIn / SignUp Section ENDS here ************************/
+
+
+
+
 /* bottom Middle Section Navbar */
 .bottomMiddleSection{
     display: flex;
