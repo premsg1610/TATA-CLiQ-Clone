@@ -1,5 +1,5 @@
 body{
-    margin:100px 0;
+    margin:0px 0;
 }
 
 /* Header Section Navbar basic container styles */
@@ -9,8 +9,9 @@ body{
     background-color: #212121;
     display: flex;
     font-family: sans-serif;
-    position:fixed;
+    position:sticky;
     top: 0;
+    z-index: 1;
 
 }
 
@@ -58,7 +59,15 @@ body{
 
 .logoHolder>img{
     width: 100%;
+    height:fit-content;
+    /* width:fit-content */
 }
+.logoHolder>img:hover{
+  transform:none;
+  
+}
+
+
 /* *********Logo Section Ends here************ */
 
 
@@ -168,6 +177,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .bottomMiddleSection>div:nth-child(1){
@@ -194,6 +204,7 @@ body{
     height: 60px;
     display: flex;
     align-items: center;
+    /* border:1px solid red */
 }
 
 .bottomMiddleSection>div:nth-child(2)>div{
@@ -204,6 +215,7 @@ body{
     height: 40px;
     border-radius: 5px;
     background-color: #4a4a4a;
+    /* border:1px solid white */
 }
 
 .bottomMiddleSection>div:nth-child(2)>div>div:nth-child(1){
@@ -225,8 +237,10 @@ body{
     font-size: 16px;
     border: none;
     border-radius: 5px;
-    width: 99%;
+    width: 97%;
     height:38px;
+    /* border:1px solid teal; */
+    float:right
 }
 
 .bottomMiddleSection input:focus{
@@ -293,8 +307,12 @@ body{
   #listCat a{
     padding:11px 0px;
     font-size: 15px;
-  }
   
+  }
+  hr{
+    margin:8px 0px;
+    color:black
+  }
   
   .dropdown-content a:hover {color: #000;}
   
@@ -325,6 +343,7 @@ body{
     padding: 14px 16px;
     justify-content: space-between;
     /* width: 100%; */
+    
   }
 
   .dropdown-content > div > div:nth-child(1){
@@ -399,7 +418,7 @@ body{
 /***************** Brand Dropdown styling ENDS here *******************/
 
 
-/* Right side Menu items in Category Section */
+/* Right side Menu items in Brand Section */
 .dropdown-content_Br > div {
   display: flex;
   /* position: absolute; */
@@ -442,6 +461,11 @@ body{
 #imgList img{
   border-radius: 50%;
   cursor: pointer;
+  height:fit-content;
+  /* width:fit-content */
+}
+#imgList img:hover{
+  transform: none;
 }
   
 
@@ -467,7 +491,7 @@ body{
   background-color: #f1f1f1;
   padding: 14px 20px;
   text-align: left;
-  min-width:140px;
+  min-width:180px;
   line-height: 25px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -507,7 +531,8 @@ body{
   background-color: red;
   color: white;
   padding: 10px 16px;
-  font-size: 16px;
+  margin-bottom:10px;
+  font-size: 14px;
   cursor: pointer;
 }
 

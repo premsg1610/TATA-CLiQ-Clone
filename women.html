@@ -7,11 +7,247 @@
     <title>Women Page</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
     <link rel="stylesheet" href="women.css">
+    <link rel="stylesheet" href="nav_js_css_file/navStyle.css">
     <script src="https://kit.fontawesome.com/24c494a6b6.js"
     crossorigin="anonymous">    
     </script>
 </head>
 <body>
+
+    <!-- Header Section Navbar STARTS Here-->
+
+    <div id="navContainer">
+        <div></div>
+        <div class="navMiddle">
+            <div class="logoHolder">
+                <img src="nav_js_css_file/tata_cliq.png" alt="tata-cliq_logo">
+            </div>
+            <div class="navFunctHolder">
+                <div class="topMiddleSection">
+                    <div>Tata CLiQ Luxury</div>
+                    <div class="topMiddleSection_Menu">
+                        <div  class="loginDropdown">
+                            <span id="signInText" class="loginBtn" style="cursor: pointer; padding: 10px 0;">Sign in/Sign Up</span>
+                            <span id="profileIcon" class="loginBtn" style="display: none;">
+                                <i class="fa-solid fa-circle-user"></i>&nbsp;&nbsp;&nbsp;
+                                <i class="fa-solid fa-angle-down"></i>
+                            </span>
+
+                            <div class="loginDropdown-content">
+                                <span><i class="fa-solid fa-sort-up"></i></span>
+                                <!-- <p id="arrow"></p> -->
+                                <button id="loginBtn" onclick="openNav()">Login/ Register</button>
+                                <p><a href="#"><i class="fa-regular fa-user"></i>&nbsp;&nbsp;&nbsp;My account</a></p>
+                                <p><a href="#"><i class="fa-solid fa-bag-shopping"></i>&nbsp;&nbsp;&nbsp;Order History</a></p>
+                                <p><a href="#"><i class="fa-regular fa-heart"></i>&nbsp;&nbsp;&nbsp;My Wishlist</a></p>
+                                <p><a href="#"><i class="fa-regular fa-bell"></i>&nbsp;&nbsp;&nbsp;Alerts & Coupon</a></p>
+                                <p><a href="#"><i class="fa-solid fa-gift"></i>&nbsp;&nbsp;&nbsp;Gift Card</a></p>
+                                <p><a href="#"><i class="fa-solid fa-money-bill-1-wave"></i>&nbsp;&nbsp;&nbsp;CLiQ Cash</a></p>
+                            </div>
+
+                        </div>
+
+                         <!---------------- SignIn / SignUP Window ------------------->
+                        <div id="myNav" class="overlay">
+                            <div class="overlay-content"  id="popBox">
+                                <a href="javascript:void(0)" class="closebtn" id="popPlus" onclick="closeNav()">&times;</a>
+                                <h1>Welcome to Tata</h1>
+                                <h1>CLiQ</h1>
+
+                                <div id="popMobileDiv">
+                                    <p class="inputMobile">Please enter your mobile number</p>
+                                    <div id="popMobile" class="numberInput">
+                                        <div>+91</div>
+                                        <div><input type="number" placeholder="Enter Mobile Number" id="popInpMob"></div>
+                                    </div>
+                                    <h3 id="selectEmail">Use Email Address</h3>
+                                </div>
+
+                                <div id="popEmailDiv">
+                                    <p class="inputMobile">Please enter your email address</p>
+                                    <div id="popEmail" class="numberInput">
+                                        <div><input type="email" placeholder="Enter Email Address"  id="popInpEmail"></div>
+                                    </div>
+                                    <h3 id="selectMobile">Use Mobile Number</h3>
+                                </div>
+                                
+                                <p id="term">By continue you are agree to our <span class="termPolicy">Terms of Service</span> & <span class="termPolicy">Privacy Policy</span></p>
+                            
+                                <button id="popBtn">Continue</button>
+
+                            </div>
+
+
+                            <!----------------- OTP window section ------------------------->
+
+                        
+                            <div class="overlay-content"  id="popOtp" style="display: none;">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                <h1>Almost There</h1>
+
+                                <div id="popMobileOtp">
+                                    <p class="inputMobile">Please enter the 6 digit OTP that we just sent</p>
+                                    <p class="inputMobile" id="dispopMob">on +91</p>
+                                    <div id="popMobOtp" class="numberInput"><input type="number" placeholder="Enter OTP" id="inputmobOtp" style="padding-left: 15px;"></div>
+                                    <div id="otpBoxFlax" class="otpResend">
+                                        <p id="editMobile">Edit Number</p>
+                                        <p>Resend OTP</p>
+                                    </div>
+                                </div>
+                    
+                    
+                                <div id="popEmailOtp">
+                                    <p class="inputMobile">Please enter the 6 digit OTP that we just sent</p>
+                                    <p class="inputMobile" id="dispopEmal">on </p>
+                                    <div id="popeMalOtp" class="numberInput"><input type="number" placeholder="Enter OTP" id="inputmailOtp" style="padding-left: 15px; margin-top: 20px;"></div>
+                                    <div id="otpBoxFlax"  class="otpResend">
+                                        <p id="editEmail">Edit Email</p>
+                                        <p>Resend OTP</p>
+                                    </div>
+                    
+                    
+                                </div>
+
+                                <button id="popOtpBtn">Continue</button>
+
+                            </div>
+
+                            <!-- ------------------------------------------------------ -->
+                        
+                        </div>
+
+
+                        <!-- ------------------------------------------------------ -->
+
+
+                        
+
+                        <div><a class="topMenu" href="">Track Orders</a></div>
+                        <div><a class="topMenu" href="">CLiQ Care</a></div>
+                        <div><a class="topMenu" href="">GiftCard</a></div>
+                        <div><a class="topMenu" href="">CLiQ Cash</a></div>
+                    </div>
+
+                </div>
+                <div class="bottomMiddleSection">
+
+                    <!-- Categories and Brands Section -->
+                    <div>
+                        <div class="dropdown">
+                            <span class="dropbtn cat" style="font-size: 17px;">Categories <i class="fa-solid fa-angle-down navbarArrowDown"  id="farc"></i></span>
+
+                            <div class="dropdown-content">
+                                <div id="blockshowCat">
+                                    <div  id="listCat">
+                                        <a id="navWomen" href="#">Women's Fashion <span id="navCat1">></span></a>
+                                        <hr>
+                                        <a id="navMen" href="#">Men's Fashion <span id="navCat2">></span></a>
+                                        <hr>
+                                        <a id="navTv" href="#">TV & Appliances <span id="navCat3">></span></a>
+                                        <hr>
+                                        <a id="navMobile" href="#">Mobile Phones <span id="navCat4">></span></a>
+                                        <hr>
+                                        <a id="navElectronics" href="#">Electronics <span id="navCat5">></span></a>
+                                        <hr>
+                                        <a id="navKid" href="#">Kid's Fashion <span id="navCat6">></span></a>
+                                        <hr>
+                                        <a id="navHome" href="#">Home Furnishings <span id="navCat7">></span></a>
+                                        <hr>
+                                        <a id="navBeauty" href="#">Beauty <span id="navCat8">></span></a>
+                                    </div>
+
+                                    <div>
+                                        <table id="cateTable"></table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="dropdown_Br">
+                            <span class="dropbtn_Br brand"  style="font-size: 17px;">Brands <i class="fa-solid fa-angle-down navbarArrowDown "  id="farb"></i></span>
+
+                            <div class="dropdown-content_Br">
+                                <div id="blockshow">   
+                                    <div id="listBrand">
+                                        <a id="brandTv" href="#">TV & Appliances <span id="navbrn1">></span></a>
+                                        <hr>
+                                        <a id="brandElc" href="#">Electronics <span id="navbrn2">></span></a>
+                                        <hr>
+                                        <a id="brandWomen" href="#">Women's Wear <span id="navbrn3">></span></a>
+                                        <hr>
+                                        <a id="brandMen" href="#">Men's Wear <span id="navbrn4">></span></a>
+                                        <hr>
+                                        <a id="brandFoot" href="#">Footwear <span id="navbrn5">></span></a>
+                                        <hr>
+                                        <a id="brandJwel" href="#">Jewellery <span id="navbrn6">></span></a>
+                                        <hr>
+                                        <a id="brandwatch" href="#">Watches & Accessories <span id="navbrn7">></span></a>
+                                        <hr>
+                                        <a id="brandKid" href="#">Kids <span id="navbrn8">></span></a>
+                                    </div>
+
+                                    <div>
+                                        <table cellpadding="0" id="brandTable"></table>
+                                    </div>
+
+                                    <div id="imgList">
+                                        <div>
+                                            <div>
+                                                <img src="https://assets.tatacliq.com/medias/sys_master/images/13957513642014.jpg" alt="">
+                                            </div> 
+                                            <div>  
+                                                <img src="https://assets.tatacliq.com/medias/sys_master/images/13957513838622.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                <img src="https://assets.tatacliq.com/medias/sys_master/images/26728706506782.jpg" alt="">
+                                            </div> 
+                                            <div> 
+                                                <img src="https://assets.tatacliq.com/medias/sys_master/images/13957513838622.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                <img src="https://assets.tatacliq.com/medias/sys_master/images/13957513773086.jpg" alt="">
+                                            </div>
+                                            <div>
+                                                <img src="https://assets.tatacliq.com/medias/sys_master/images/13957513838622.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+
+                    <!-- Search for product section -->
+                    <div>
+                        <div>
+                            <div><i class="fa-solid fa-magnifying-glass"></i></div>
+                            <div><input type="text" placeholder="Search for Products"></div>
+                        </div>     
+                    </div>
+
+                    <!-- Bookmark and Bag Section -->
+                    <div>
+                        <div><i class="fa-regular fa-heart"></i></div>
+                        <div><i class="fa-solid fa-bag-shopping"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- Header Section Navbar ENDS Here-->
+
+
+
+
+
     <h1>Women's kurti & kurtas store</h1>
     <div>19987 Products</div>
     <select id="sort" onchange="sort()">
@@ -315,3 +551,10 @@
 </body>
 </html>
 <script src="women.js"></script>
+
+
+<script src="nav_js_css_file/brands.js"></script>
+
+<script src="nav_js_css_file/nav.js"></script>
+
+<script src="nav_js_css_file/pop.js"></script>
