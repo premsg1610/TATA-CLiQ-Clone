@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bag</title>
+    <link rel="stylesheet" href="bag.css">
+    <link rel="stylesheet" href="nav_js_css_file/navStyle.css">
+    <script
+        src="https://kit.fontawesome.com/24c494a6b6.js"
+        crossorigin="anonymous"
+    ></script>
+    <style>
+        .loginDropdown{
+            margin-top:20px;
+            background-color:#212121 !important;
+        }
+        .loginBtn{
+            float: right;
+            background-color: #212121;
+            color: white; 
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section Navbar STARTS Here-->
+
+<div id="navContainer" style="height:75px">
+    <div></div>
+    <div class="navMiddle">
+        <div class="logoHolder">
+            <img src="nav_js_css_file/tata_cliq.png" alt="tata-cliq_logo">
+        </div>
+        <div class="navFunctHolder">
+                    <div  class="loginDropdown">
+                        <span id="profileIcon" class="loginBtn" >
+                            <i class="fa-solid fa-circle-user"></i>&nbsp;&nbsp;
+                            <i class="fa-solid fa-angle-down" style="font-size: 18px;"></i>
+                        </span>
+
+                        <div class="loginDropdown-content" style="top: 35px;">
+                            <span style="right:0.5px; top:-10px;"><i class="fa-solid fa-sort-up"></i></span>
+                            <!-- <p id="arrow"></p> -->
+                            <button id="loginBtn" onclick="openNav()"  style="display: none;">Login/ Register</button>
+                            <p><a href="#"><i class="fa-regular fa-user"></i>&nbsp;&nbsp;&nbsp;My account</a></p>
+                            <p><a href="#"><i class="fa-solid fa-bag-shopping"></i>&nbsp;&nbsp;&nbsp;Order History</a></p>
+                            <p><a href="#"><i class="fa-regular fa-heart"></i>&nbsp;&nbsp;&nbsp;My Wishlist</a></p>
+                            <p><a href="#"><i class="fa-regular fa-bell"></i>&nbsp;&nbsp;&nbsp;Alerts & Coupon</a></p>
+                            <p><a href="#"><i class="fa-solid fa-gift"></i>&nbsp;&nbsp;&nbsp;Gift Card</a></p>
+                            <p><a href="#"><i class="fa-solid fa-money-bill-1-wave"></i>&nbsp;&nbsp;&nbsp;CLiQ Cash</a></p>
+                            <p id="logOut"><a href="#"><i class="fa-solid fa-gear"></i>&nbsp;&nbsp;&nbsp;Log Out</a></p>
+                        </div>
+
+                    </div>
+        </div>
+    </div>
+    <div></div>
+</div>
+
+<!-- Header Section Navbar ENDS Here-->
+
+
+
+
+
+    <div id="head">
+     <h1>My bag</h1>
+     <p id="pin">Delhi,110010 </p>
+     <u>Change Pin Code</u>
+     </div>
+     <p id="tc">Apply a relevant coupon code here to avail any additional discount. Applicable cashback if any will be credited to your account as per T&C</p>
+    <div id="maincontainer">
+        <div id="productbox">
+          
+        <div id="productimg"><img src="https://img.tatacliq.com/images/i7/437Wx649H/MP000000011497645_437Wx649H_202112172042201.jpeg" alt=""></div>
+        <div id="productdetails">
+            <p>New Balance Men's Carbon Black Running Shoe</p>
+            <p>₹5499</p>
+            <p>Quantity : <select value ="">
+                <option value="">1</option>
+                <option value="">2</option>
+                </select></p>
+            <p>Color : Carbon Black </p>
+            <p>Size:UK 6</p>
+            <p> <i class="fa-regular fa-heart"></i> Save to wishlist <span><button id="delet">Remove   </button></span></p>
+        </div>
+        <div id="deliverystatus"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkJ7J8fstcAZkc0bJeOUeShS929ESxb1ORhcfd6pCL8uCZw5k1F6-1pglfEX2G4hwIFrg&usqp=CAU" alt="">
+        <p>Delivery by 24th april |</p></div>
+        
+        </div>
+        
+       
+         <div id="rightbox">
+            <div id="coupon">
+                <img src="https://cdn-icons-png.flaticon.com/512/879/879767.png" width="10%" height="80%">
+                <h3>Check for Coupon</h3>
+                <p >Apply</p>
+            </div>
+            <div id="totalbox">
+                <div id="delivery">
+                <img src="https://www.tatacliq.com/src/cart/components/img/shipping-truck.b2027e03dce2.svg"/>
+                <p>Congratulations!! Your order is eligible for FREE Shipping!</p>
+               </div>
+               <hr>
+               <div id ="totalprice">
+                  <p>Bag Total</p>
+                  <p>RS 1799</p>
+               </div>
+              <div id ="totalprice">
+                <p>Shipping Charge</p>
+                <p>Free</p>
+             </div>
+             <div id ="totalprice">
+                <p>Bag SubTotal</p>
+                <p>RS 5499</p>
+             </div>
+             <hr>
+             <div id="checkoutbox">
+                <div id="Finaltotal">
+                    <p id="total">Total</p>
+                    <p >₹ 5499</p>
+                </div>
+                <button>Checkout</button>
+             </div>
+            
+         </div>
+         <button id="lastbutton" > <a href="index.html">Continue Shopping   </a> </button>
+         
+     </div>
+   
+     
+
+     
+</body>
+
+
+</html>
+
+
+<script src="nav_js_css_file/brands.js"></script>
+
+<script src="nav_js_css_file/nav.js"></script>
+
+<script src="nav_js_css_file/pop.js"></script>

@@ -304,11 +304,23 @@ body{
     display: block;
   }
 
+  /* .dropdown-content a:hover{
+    color: red !important;
+  } */
+
   #listCat a{
     padding:11px 0px;
     font-size: 15px;
-  
   }
+
+  #cateTable a:hover{
+    color: red !important;
+  }
+
+  #brandTable a:hover{
+    color: red !important;
+  }
+
   hr{
     margin:8px 0px;
     color:black
