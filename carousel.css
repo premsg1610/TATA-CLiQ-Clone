@@ -18,14 +18,14 @@
     z-index: 0;
 }
 .carousel-control-next-icon{
-    background-color:#faeded;
+    background-color:#e2dada8e;
     height:50px;
     width:50px;
     /* border:1px solid; */
     border-radius:50px;
 }
 .carousel-control-prev-icon{
-    background-color: #faeded;
+    background-color: #e2dada77;
     height:50px;
     width:50px;
     /* border:1px solid; */
