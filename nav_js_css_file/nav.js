@@ -172,11 +172,11 @@ var categoriesArray=[
   
   document.querySelector("#cateTable").style.fontSize= "14px";
 
-  document.querySelector("#listCat").style.fontSize= "14px";
+  document.querySelector("#listCat").style.fontSize= "18px";
 
 
   var cateTable=document.querySelector("#cateTable");
-  
+ 
   navWomen.onmouseover=function(){
       cateTable.innerHTML=categoriesArray[0].join('')
       displayArrow=0;

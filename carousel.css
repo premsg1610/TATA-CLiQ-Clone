@@ -9,11 +9,13 @@
     border:1px;
     /* background-color: grey; */
     padding-right: 80px;
+    z-index: 0;
 }
 .carousel-control-next{
     border:1px;
     /* background-color: grey; */
     padding-left: 80px;
+    z-index: 0;
 }
 .carousel-control-next-icon{
     background-color:#faeded;
