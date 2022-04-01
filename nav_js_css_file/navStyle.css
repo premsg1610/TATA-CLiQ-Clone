@@ -18,7 +18,9 @@ body{
 #navContainer > div:nth-child(1){
     width:6%;
 }
-
+#blockshowCat,#blockshow{
+  background-color: white;;
+}
 
 
 /* Navbar Section Area */
@@ -123,6 +125,11 @@ body{
 
 
 /*********************** SignIn / SignUp Section **********************/
+
+#popMobileDiv{
+  margin-top:5px;
+}
+
 
 #popDisplay {
   background-color: #ff1744;
@@ -288,7 +295,7 @@ body{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: white;
     padding: 14px 16px 0px 16px;
     text-align: left;
     width:970px;
@@ -307,7 +314,9 @@ body{
   /* .dropdown-content a:hover{
     color: red !important;
   } */
-
+#listCat{
+  font-size:18px;
+}
   #listCat a{
     padding:11px 0px;
     font-size: 15px;
@@ -391,9 +400,9 @@ body{
   display: none;
   position: absolute;
   padding: 14px 16px 0px 16px;
-  background-color: #f1f1f1;
+  background-color: white;
   text-align: left;
-  width:840px;
+  width:900px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
@@ -460,6 +469,7 @@ body{
 
 #cateTable, #brandTable{
   width: 100%;
+  font-size:14px;
 }
 
 
@@ -656,7 +666,10 @@ input::-webkit-inner-spin-button {
   margin-top: 25px;
   margin-bottom: 50px;
   cursor: pointer;
-  width: 35%;
+  width: 40%;
+  font-size:16px;
+  font-weight:bold;
+  /* border:1px solid red */
 }
 .termPolicy{
   color:#da1c5c;
