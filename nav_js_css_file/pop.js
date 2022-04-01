@@ -243,6 +243,10 @@ document.getElementById("popOtpBtn").addEventListener("click", function(){
         document.getElementById("signInText").style.display="none";
         document.getElementById("profileIcon").style.display="block";
         document.getElementById("profileIcon").style.fontSize="18px";
-      }   
+      
+        document.getElementById("loginBtn").style.display="none"
+        document.getElementById("logOut").style.display="block"
+        
+    }   
 
 })
