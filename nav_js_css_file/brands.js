@@ -163,6 +163,9 @@ function arrowbrand(brandArrow){
 }
 
 
+document.querySelector("#brandTable").style.fontSize= "14px";
+
+
 var brandTable= document.querySelector("#brandTable");
 
 brandTv.onmouseover=function(){

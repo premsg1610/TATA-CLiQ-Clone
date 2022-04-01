@@ -102,23 +102,6 @@ var categoriesArray=[
       '<tr>  <th><a href="#">Girls Clothing</a></th>  <th><a href="#">Infants</a></th>  <th><a href="#">Boys Footwear</a></th>  <td><a href="#"></a></td>   </tr>'
     ],
     [
-      '<tr>  <th><a href="#"> Fragrance Store</a></th>  <th><a href="#"> Skin</a></th>  <td><a href="#"> Hair Oils</a></td>   </tr>',
-      '<tr>  <td><a href="#"> Men</a></td>  <td><a href="#"> Cleansers</a></td>  <td><a href="#"> Hair Masks</a></td>   </tr>',
-      '<tr>  <td><a href="#"> Women</a></td>  <td><a href="#"> Moisturizers & Serums</a></td>  <th><a href="#"> Professional Hair care</a></th>   </tr>',
-      '<tr>  <td><a href="#"> Perfumes</a></td>  <td><a href="#"> Facial Peels & Masks</a></td>  <th><a href="#"> Natural Hair care</a></th>   </tr>',
-      '<tr>  <td><a href="#"> Gift Sets</a></td>  <td><a href="#"> Eye creams</a></td>  <td><a href="#"> All Hair</a></td>   </tr>',
-      `<tr>  <th><a href="#"> View By Note</a></th>  <td><a href="#"> Combo Sets</a></td>  <th><a href="#"> Men's Grooming</a></th>   </tr>`,
-      `<tr>  <td><a href="#"> Woody & Spicy Fragrances</a></td>  <td><a href="#"> Men's Skin care</a></td>  <td><a href="#"> Shaving</a></td>   </tr>`,
-      '<tr>  <td><a href="#"> Floral & Fruity Fragrances</a></td>  <th><a href="#"> Natural Skin Care</a></th>  <td><a href="#"> Beard & Moustache Care</a></td>   </tr>',
-      '<tr>  <td><a href="#"> Fresh & Citrus Fragrances</a></td>  <th><a href="#"> K-Skin care</a></th>  <td><a href="#"> Grooming Kits</a></td>   </tr>',
-      `<tr>  <td><a href="#"> Makeup</a></td>  <th><a href="#"> Derma Skin care</a></th>  <td><a href="#"> Overall Men's Grooming</a></td>   </tr>`,
-      '<tr>  <td><a href="#"> Eyes</a></td>  <td><a href="#"> All skin</a></td>  <th><a href="#"> All Beauty & Grooming</a></th>   </tr>',
-      '<tr>  <td><a href="#"> Face</a></td>  <th><a href="#"> Bath, Body & Hygiene</a></th>  <td><a href="#"></a></td>   </tr>',
-      '<tr>  <td><a href="#"> Lips</a></td>  <th><a href="#"> Hair</a></th>  <td><a href="#"></a></td>   </tr>',
-      '<tr>  <td><a href="#"> Nails</a></td>  <td><a href="#"> Shampoos & Conditioners</a></td>  <td><a href="#"></a></td>   </tr>',
-      '<tr>  <td><a href="#"> All Makeup</a></td>  <td><a href="#"> Hair Styling & Care</a></td>  <td><a href="#"></a></td>   </tr>'
-    ],
-    [
       '<tr>  <th><a href="#">Bedding and Linen</a></th>  <td><a href="#">Bathrobes</a></td>  <th><a href="#">Kitchen</a></th>  <td><a href="#">Other Home Accents</a></td>   </tr>',
       '<tr>  <td><a href="#">Bed Sheet Sets</a></td>  <td><a href="#">Kids Bath Linen</a></td>  <td><a href="#">Cookware and Bakeware</a></td>  <td><a href="#"></a></td>   </tr>',
       '<tr>  <td><a href="#">Bed Linen Sets</a></td>  <th><a href="#">Room Furnishings</a></th>  <th><a href="#">Tableware</a></th>  <td><a href="#"></a></td>   </tr>',
@@ -134,7 +117,25 @@ var categoriesArray=[
       '<tr>  <th><a href="#"> Accessories</a></th>  <td><a href="#">Wall Lamps</a></td>  <td><a href="#">Art Pieces</a></td>  <td><a href="#"></a></td>   </tr>',
       '<tr>  <td><a href="#">Towels</a></td>  <td><a href="#">Ceiling Lamps</a></td>  <td><a href="#">Vases</a></td>  <td><a href="#"></a></td>   </tr>',
       '<tr>  <td><a href="#">Bath Mats and Rugs</a></td>  <td><a href="#">Study Table Lamps</a></td>  <td><a href="#">Photoframes</a></td>  <td><a href="#"></a></td>   </tr>'
+    ],
+    [
+      '<tr>  <th><a href="#"> Fragrance Store</a></th>  <th><a href="#"> Skin</a></th>  <td><a href="#"> Hair Oils</a></td>   </tr>',
+      '<tr>  <td><a href="#"> Men</a></td>  <td><a href="#"> Cleansers</a></td>  <td><a href="#"> Hair Masks</a></td>   </tr>',
+      '<tr>  <td><a href="#"> Women</a></td>  <td><a href="#"> Moisturizers & Serums</a></td>  <th><a href="#"> Professional Hair care</a></th>   </tr>',
+      '<tr>  <td><a href="#"> Perfumes</a></td>  <td><a href="#"> Facial Peels & Masks</a></td>  <th><a href="#"> Natural Hair care</a></th>   </tr>',
+      '<tr>  <td><a href="#"> Gift Sets</a></td>  <td><a href="#"> Eye creams</a></td>  <td><a href="#"> All Hair</a></td>   </tr>',
+      `<tr>  <th><a href="#"> View By Note</a></th>  <td><a href="#"> Combo Sets</a></td>  <th><a href="#"> Men's Grooming</a></th>   </tr>`,
+      `<tr>  <td><a href="#"> Woody & Spicy Fragrances</a></td>  <td><a href="#"> Men's Skin care</a></td>  <td><a href="#"> Shaving</a></td>   </tr>`,
+      '<tr>  <td><a href="#"> Floral & Fruity Fragrances</a></td>  <th><a href="#"> Natural Skin Care</a></th>  <td><a href="#"> Beard & Moustache Care</a></td>   </tr>',
+      '<tr>  <td><a href="#"> Fresh & Citrus Fragrances</a></td>  <th><a href="#"> K-Skin care</a></th>  <td><a href="#"> Grooming Kits</a></td>   </tr>',
+      `<tr>  <td><a href="#"> Makeup</a></td>  <th><a href="#"> Derma Skin care</a></th>  <td><a href="#"> Overall Men's Grooming</a></td>   </tr>`,
+      '<tr>  <td><a href="#"> Eyes</a></td>  <td><a href="#"> All skin</a></td>  <th><a href="#"> All Beauty & Grooming</a></th>   </tr>',
+      '<tr>  <td><a href="#"> Face</a></td>  <th><a href="#"> Bath, Body & Hygiene</a></th>  <td><a href="#"></a></td>   </tr>',
+      '<tr>  <td><a href="#"> Lips</a></td>  <th><a href="#"> Hair</a></th>  <td><a href="#"></a></td>   </tr>',
+      '<tr>  <td><a href="#"> Nails</a></td>  <td><a href="#"> Shampoos & Conditioners</a></td>  <td><a href="#"></a></td>   </tr>',
+      '<tr>  <td><a href="#"> All Makeup</a></td>  <td><a href="#"> Hair Styling & Care</a></td>  <td><a href="#"></a></td>   </tr>'
     ]
+    
   ]
   
   var navWomen =document.getElementById("navWomen")
@@ -147,7 +148,7 @@ var categoriesArray=[
   var navHome =document.getElementById("navHome")
   var displayArrow=0;
   var discatarr=["navCat1","navCat2", "navCat3", "navCat4", "navCat5", "navCat6", "navCat7", "navCat8"]
-  var discatarr2=["navWomen","navMen", "navTv", "navMobile", "navElectronics", "navKid", "navBeauty", "navHome"]
+  var discatarr2=["navWomen","navMen", "navTv", "navMobile", "navElectronics", "navKid", "navHome", "navBeauty"]
   
   function arrowdis(displayArrow ){
       for(var d=0; d<8; d++)
@@ -169,8 +170,12 @@ var categoriesArray=[
       }
   }
   
-  var cateTable=document.querySelector("#cateTable")
-  
+  document.querySelector("#cateTable").style.fontSize= "14px";
+
+  document.querySelector("#listCat").style.fontSize= "14px";
+
+
+  var cateTable=document.querySelector("#cateTable");
   
   navWomen.onmouseover=function(){
       cateTable.innerHTML=categoriesArray[0].join('')
@@ -202,12 +207,12 @@ var categoriesArray=[
       displayArrow=5;
       arrowdis(displayArrow)
   } 
-  navBea.onmouseover=function(){
+  navHome.onmouseover=function(){
       cateTable.innerHTML=categoriesArray[6].join('')
       displayArrow=6;
       arrowdis(displayArrow)
   } 
-  navHome.onmouseover=function(){
+  navBea.onmouseover=function(){
       cateTable.innerHTML=categoriesArray[7].join('')
       displayArrow=7;
       arrowdis(displayArrow)

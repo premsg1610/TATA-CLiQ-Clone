@@ -1,5 +1,5 @@
 body{
-    margin:0;
+    margin:100px 0;
 }
 
 /* Header Section Navbar basic container styles */
@@ -9,6 +9,9 @@ body{
     background-color: #212121;
     display: flex;
     font-family: sans-serif;
+    position:fixed;
+    top: 0;
+
 }
 
 #navContainer > div:nth-child(1){
@@ -99,7 +102,11 @@ body{
     flex-direction: row-reverse;
     justify-content: space-between;
     color: white;
-    cursor: pointer;
+}
+
+.topMenu{
+  color: white;
+  text-decoration: none;
 }
 /* Top Middle Section Navbar ENDS here */
 
@@ -218,18 +225,26 @@ body{
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    padding: 14px 16px;
+    padding: 14px 16px 0px 16px;
     text-align: left;
     width:970px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
+
   
+
   .dropdown-content a {
     color: grey;
-    padding: 10px 0px;
+    padding: 6px 0px;
     text-decoration: none;
     display: block;
   }
+
+  #listCat a{
+    padding:11px 0px;
+    font-size: 15px;
+  }
+  
   
   .dropdown-content a:hover {color: #000;}
   
@@ -241,6 +256,12 @@ body{
     padding-right: 10px;
     height: 100%;
     color: #000;
+  }
+
+  #listCat span{
+    float: right;
+    font-weight: 700;
+    font-size: 16px;
   }
 
   /***************** Categories Dropdown styling ENDS here *******************/
@@ -288,6 +309,7 @@ body{
 .dropdown-content_Br {
   display: none;
   position: absolute;
+  padding: 14px 16px 0px 16px;
   background-color: #f1f1f1;
   text-align: left;
   width:840px;
@@ -296,9 +318,14 @@ body{
 
 .dropdown-content_Br a {
   color: grey;
-  padding: 10px 0px;
+  padding: 6px 0px;
   text-decoration: none;
   display: block;
+}
+
+#listBrand a{
+  padding:11px 0px;
+  font-size: 15px;
 }
 
 .dropdown-content_Br a:hover {color: #000;}
@@ -311,6 +338,12 @@ body{
   padding-right: 10px;
   height: 100%;
   color: #000;
+}
+
+#listBrand span{
+  float: right;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 /***************** Brand Dropdown styling ENDS here *******************/
@@ -361,3 +394,234 @@ body{
   cursor: pointer;
 }
   
+
+/***************** Login/Register Section ******************/
+
+/* .loginBtn {
+  display: flex;
+  align-items: center;
+  height: 100%;
+} */
+
+.loginDropdown {
+  position: relative;
+  display: block;
+  float: right;
+}
+
+.loginDropdown-content {
+  display: none;
+  position: absolute;
+  right:0;
+  top: 28px;
+  background-color: #f1f1f1;
+  padding: 14px 20px;
+  text-align: left;
+  min-width:140px;
+  line-height: 25px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* .loginDropdown-content a {
+  color: black;
+  padding: 10px 0px;
+  text-decoration: none;
+  display: block;
+} */
+
+.loginDropdown-content a:hover {color: #000; cursor: pointer; }
+
+.loginDropdown:hover .loginDropdown-content {
+  display: block;
+  
+}
+
+/* .loginDropdown:hover .loginBtn {
+  background-color: #fff;
+  width:max-content;
+  padding-right: 10px;
+  height: 100%;
+  color: #000;
+} */
+
+.loginDropdown-content  a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+#loginBtn{
+  border: none;
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.loginDropdown-content span{
+  position:absolute; 
+  top: -9px; 
+  right: 25px; 
+  font-size: 30px; 
+  color: #f1f1f1;
+}
+
+
+/******************* SignIn / SignUp Window style *********************/
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.66);
+}
+
+.overlay-content {
+  position: relative;
+  /* top: 25%; */
+  padding-top: 85px;
+  width: 35%;
+  height: 95vh;
+  text-align: center;
+  color: #000;
+  margin: auto;
+  margin-top: 5px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.overlay .closebtn {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  font-size: 40px;
+}
+
+
+
+.overlay-content > h1{
+  font-size: 32px;
+  font-family: 700;
+  color: #212121;
+  margin: 0;
+}
+
+.inputMobile{
+  color: #9d9e9f;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.numberInput{
+  display: flex;
+  margin: auto;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  width: 70%;
+  height: 40px;
+  margin-top: 35px;
+  align-items: center;
+}
+
+.overlay-content > div > div > div:nth-child(1){
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.numberInput > div:last-child{
+  width: 100%;
+}
+
+.overlay-content > div > div input{
+  height: 38px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.overlay-content input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.overlay-content h3{
+  color:#da1c5c;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  width: 35%;
+}
+.termPolicy{
+  color:#da1c5c;
+  margin:0px 0px 30px;
+  font-weight: 700;
+}
+
+#term{
+  width: 70%;
+  margin: auto;
+  font-size: 12px;
+  text-align: left;
+  color: #4a4a4a;
+}
+
+.overlay-content button{
+  width: 70%;
+  border-radius: 15px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border: 0px;
+  margin-top: 15px;
+  outline: none;
+  padding: 13px 15px;
+  /* background-image: linear-gradient(to right bottom, rgb(137, 33, 107), rgb(218, 68, 83));
+  box-shadow: rgb(218 68 83) 0px 28px 18px -23px; */
+  cursor: pointer;
+}
+
+
+/**************** SignIn / SignUP window style ENDS here *********************/
+
+
+
+#popEmailDiv{
+  display: none;
+}
+
+.otpResend{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  color:#da1c5c;
+  font-weight: 400;
+  margin: auto;
+}
+
+.otpResend p{
+  cursor: pointer;
+}
+
+#popOtpBtn{
+  margin-top: 80px;
+}
