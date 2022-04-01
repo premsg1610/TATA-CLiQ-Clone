@@ -311,12 +311,17 @@ color: rgb(72, 72, 72);
     font-family: sans-serif;
 
 }
+#wrap>p:hover{
+    color:red;
+    cursor: pointer;
+}
 #wrap>p:first-child{
     display:block;
     font-size:14px;
     margin-top:46px;
     font-weight:bold;
     color:#212121;
+    cursor:auto;
 }
 #last{
     background-color:#ffffff;
