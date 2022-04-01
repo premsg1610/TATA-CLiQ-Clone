@@ -163,7 +163,7 @@ function arrowbrand(brandArrow){
 }
 
 
-document.querySelector("#brandTable").style.fontSize= "14px";
+// document.querySelector("#brandTable").style.fontSize= "14px";
 
 
 var brandTable= document.querySelector("#brandTable");

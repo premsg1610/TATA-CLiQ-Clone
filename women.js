@@ -1,366 +1,370 @@
 var womensData = [
     {
-      image_url:
+      img_url:
         "Images/1.jpeg",
-      head: "Utsa",
-      name: "Utsa by Westside Greey Printed A-Line Kurti",
+      name:  "Utsa",
+      detail: "Utsa by Westside Greey Printed A-Line Kurti",
       price: "799",
       strikedoffprice:"",
       rating:"4.6 (9)",
     },
     {
-      image_url:
+      img_url:
         "Images/2.jpeg",
-      head:"Aurelia",
-      name: "Aurelia White Cotton Embroidered Straight Kurta",
+      name: "Aurelia",
+      detail: "Aurelia White Cotton Embroidered Straight Kurta",
       price: "749",
       strikedoffprice: "₹1499",
       rating:"4.3 (9)",
     },
     {
-      image_url:
+      img_url:
         "Images/3.jpeg",
-        head:"Utsa",
-        name: "Utsa by Westside Mauve Embroidered A-Line Kurta",
+        name: "Utsa",
+        detail: "Utsa by Westside Mauve Embroidered A-Line Kurta",
       price: "1299",
       strikedoffprice: "",
       rating:"3.6 (7)",
     },
     {
-      image_url:
+      img_url:
         "Images/4.jpeg",
-        head:"W",
-        name: "W Minion Yellow Embellished A Line Kurta",
+        name: "W",
+        detail: "W Minion Yellow Embellished A Line Kurta",
       price: "2499",
       strikedoffprice: "₹4999",
       rating:"5.0 (1)",
     },
     {
-      image_url:
+      img_url:
         "Images/5.jpeg",
-        head:"Biba",
-        name: "Biba Green Printed Straight Kurti",
+        name: "Biba",
+        detail: "Biba Green Printed Straight Kurti",
       price: "1599",
       strikedoffprice: "",
       rating:"4.4 (5)",
     },
     {
-      image_url:
+      img_url:
         "Images/6.jpeg",
-        head:"Biba",
-        name: "Biba Indigo Blue Cotton Straight Kurta",
+        name: "Biba",
+        detail: "Biba Indigo Blue Cotton Straight Kurta",
       price: "998",
       strikedoffprice: "₹1999",
       rating:"",
     },
     {
-      image_url:
+      img_url:
         "Images/7.jpeg",
-        head:"Aurelia",
-        name: "Aurelia Blue Striped Kurta",
+        name: "Aurelia",
+        detail: "Aurelia Blue Striped Kurta",
       price: "649",
       strikedoffprice: "₹1299",
       rating:"5.0 (2)",
     },
     {
-      image_url:
+      img_url:
         "Images/8.jpeg",
-        head:"Zuba",
-        name: "Zuba by Westside Orange Printed Ombre A-line Kurta",
+        name: "Zuba",
+        detail: "Zuba by Westside Orange Printed Ombre A-line Kurta",
       price: "2599",
       strikedoffprice: "",
       rating:"4.1 (10)",
     },
     {
-      image_url:
+      img_url:
         "Images/9.jpeg",
-        head:"Zuba",
-        name: "Zuba by Westside Green Floral A-Line Kurta",
+        name: "Zuba",
+        detail: "Zuba by Westside Green Floral A-Line Kurta",
       price: "2299",
       strikedoffprice: "",
       rating:"4.8 (4)",
     },
     {
-      image_url:
+      img_url:
         "Images/10.jpeg",
-        head:"Diza",
-        name: "Diza Curves by Westside Orange Pintuck A-Line Kurta",
+        name: "Diza",
+        detail: "Diza Curves by Westside Orange Pintuck A-Line Kurta",
       price: "1199",
       strikedoffprice: "",
       rating:"4.6 (5)",
     },
     {
-      image_url:
+      img_url:
         "Images/11.jpeg",
-        head:"Fabindia",
-        name: "Fabindia Black Cotton Straight Kurta",
+        name: "Fabindia",
+        detail: "Fabindia Black Cotton Straight Kurta",
       price: "1399",
       strikedoffprice: "",
       rating:"",
     },
     {
-      image_url:
+      img_url:
         "Images/12.jpeg",
-        head:"Diza",
-        name: "Diza Curves by Westside Pink Chevron Straight Kurta",
+        name: "Diza",
+        detail: "Diza Curves by Westside Pink Chevron Straight Kurta",
       price: "799",
       strikedoffprice: "",
       rating:"4.0 (5)",
     },
     {
-        image_url:
+        img_url:
           "Images/13.jpeg",
-          head:"Fabindia",
-          name: "Fabindia Pink Cotton Chequered Straight Kurta",
+          name: "Fabindia",
+          detail: "Fabindia Pink Cotton Chequered Straight Kurta",
         price: "1499",
         strikedoffprice: "",
         rating:"5.0 (1)",
       },
       {
-        image_url:
+        img_url:
           "Images/14.jpeg",
-          head:"Global Desi",
-          name: "Global Desi Blue Printed Kurta",
+          name: "Global Desi",
+          detail: "Global Desi Blue Printed Kurta",
         price: "1329",
         strikedoffprice: "₹1899",
         rating:"",
       },
       {
-        image_url:
+        img_url:
           "Images/15.jpeg",
-          head:"Juniper",
-          name: "Juniper Grey Cotton Embroidered A Line Kurta With Mask",
+          name: "Juniper",
+          detail: "Juniper Grey Cotton Embroidered A Line Kurta With Mask",
         price: "1039",
         strikedoffprice: "₹1999",
         rating:"4.2 (24)",
       },
       {
-        image_url:
+        img_url:
           "Images/16.jpeg",
-          head:"Juniper",
-          name: "Juniper Green Printed Straight Kurta With Mask",
+          name: "Juniper",
+          detail: "Juniper Green Printed Straight Kurta With Mask",
         price: "799",
         strikedoffprice: "₹1699",
         rating:"",
       },
       {
-        image_url:
+        img_url:
           "Images/17.jpeg",
-          head:"Global Desi",
-          name: "Global Desi Pink Printed Kurta",
+          name: "Global Desi",
+          detail: "Global Desi Pink Printed Kurta",
         price: "2099",
         strikedoffprice: "",
         rating:"",
       },
       {
-        image_url:
+        img_url:
           "Images/18.jpeg",
-          head:"Aks",
-          name: "Aks Coral Cotton Printed Straight Kurta",
+          name: "Aks",
+          detail: "Aks Coral Cotton Printed Straight Kurta",
         price: "499",
         strikedoffprice: "₹999",
         rating:"",
       },
       {
-        image_url:
+        img_url:
           "Images/19.jpeg",
-          head:"Anubhutee",
-          name: "Anubhutee Blue Printed Straight Kurti",
+          name: "Anubhutee",
+          detail: "Anubhutee Blue Printed Straight Kurti",
         price: "584",
         strikedoffprice: "₹1299",
         rating:"4.3 (106)",
       },
       {
-        image_url:
+        img_url:
           "Images/20.jpeg",
-          head:"Aks",
-          name: "Aks Grey Printed Straight Kurta",
+          name: "Aks",
+          detail: "Aks Grey Printed Straight Kurta",
         price: "849",
         strikedoffprice: "₹1699",
         rating:"3.5 (8)",
       },
       {
-        image_url:
+        img_url:
           "Images/21.jpeg",
-          head:"Soch",
-          name: "Soch Grey & White Embellished A Line Kurta",
+          name: "Soch",
+          detail: "Soch Grey & White Embellished A Line Kurta",
         price: "999",
         strikedoffprice: "₹1998",
         rating:"",
       },
       {
-        image_url:
+        img_url:
           "Images/22.jpeg",
-          head:"Jaipur Kurti",
-          name: "Jaipur Kurti Yellow Cotton Printed Straight Kurta",
+          name: "Jaipur Kurti",
+          detail: "Jaipur Kurti Yellow Cotton Printed Straight Kurta",
         price: "542",
         strikedoffprice: "₹1349",
         rating:"4.0 (63)",
       },
       {
-        image_url:
+        img_url:
           "Images/23.jpeg",
-          head:"Gerua",
-          name: "Gerua Beige & Red Printed A Line Kurti",
+          name: "Gerua",
+          detail: "Gerua Beige & Red Printed A Line Kurti",
         price: "674",
         strikedoffprice: "₹1499",
         rating:"3.0 (1)",
       },
       {
-        image_url:
+        img_url:
           "Images/24.jpeg",
-          head:"Yufta",
-          name: "Yufta Women Blue & Offwhite Printed Kaftan Kurta",
+          name: "Yufta",
+          detail: "Yufta Women Blue & Offwhite Printed Kaftan Kurta",
         price: "799",
         strikedoffprice: "₹1999",
         rating:"4.0 (3)",
       },
       {
-        image_url:
+        img_url:
           "Images/25.jpeg",
-          head:"Gerua",
-          name: "Gerua Yellow Printed Cotton Kurti",
+          name: "Gerua",
+          detail: "Gerua Yellow Printed Cotton Kurti",
         price: "494",
         strikedoffprice: "₹1099",
         rating:"4.1 (30)",
       },
       {
-        image_url:
+        img_url:
           "Images/26.jpeg",
-          head:"Tara-C-Tara",
-          name: "Tara-C-Tara Pink Embellished A Line Kurta With Dupatta",
+          name: "Tara-C-Tara",
+          detail: "Tara-C-Tara Pink Embellished A Line Kurta With Dupatta",
         price: "2759",
         strikedoffprice: "₹4599",
         rating:"",
       },
       {
-        image_url:
+        img_url:
           "Images/27.jpeg",
-          head: "Tara-C-Tara",
-          name: "Tara-C-Tara Light Blue V Neck Anarkali Kurta With Dupatta",
+          name:  "Tara-C-Tara",
+          detail: "Tara-C-Tara Light Blue V Neck Anarkali Kurta With Dupatta",
         price: "2579",
         strikedoffprice: "₹4299",
         rating:"5.0 (1)",
       },
       {
-        image_url:
+        img_url:
           "Images/28.jpeg",
-          head:"Yufta",
-          name: "Yufta Multicolor Printed Kaftan Kurti",
+          name: "Yufta",
+          detail: "Yufta Multicolor Printed Kaftan Kurti",
         price: "719",
         strikedoffprice: "₹1799",
         rating:"4.5 (2)",
       },
       {
-        image_url:
+        img_url:
           "Images/29.jpeg",
-          head:"Indo Era",
-          name: "Indo Era Navy Cotton Embroidered Straight Kurta",
+          name: "Indo Era",
+          detail: "Indo Era Navy Cotton Embroidered Straight Kurta",
         price: "739",
         strikedoffprice: "₹2599",
         rating:"4.0 (6)",
       },
       {
-        image_url:
+        img_url:
           "Images/30.jpeg",
-          head:"Rustorange",
-          name: "Rustorange Black & Yellow Striped Long Kurta",
+          name: "Rustorange",
+          detail: "Rustorange Black & Yellow Striped Long Kurta",
         price: "1399",
         strikedoffprice: "₹2799",
         rating:"",
       },
       {
-        image_url:
+        img_url:
           "Images/31.jpeg",
-          head:"Indo Era",
-          name: "Indo Era Black A Line Kurta",
+          name: "Indo Era",
+          detail: "Indo Era Black A Line Kurta",
         price: "1079",
         strikedoffprice: "₹3399",
         rating:"4.0 (34)",
       },
       {
-        image_url:
+        img_url:
           "Images/32.jpeg",
-          head:"Rustorange",
-          name: "Rustorange Black & Green Striped Long Kurta",
+          name: "Rustorange",
+          detail: "Rustorange Black & Green Striped Long Kurta",
         price: "1399",
         strikedoffprice: "₹2799",
         rating:"3.8 (6)",
       },
       {
-        image_url:
+        img_url:
           "Images/33.jpeg",
-          head:"Janasya",
-          name: "Janasya Blue Tie-Dye Fit & Flare Kaftan Kurta",
+          name: "Janasya",
+          detail: "Janasya Blue Tie-Dye Fit & Flare Kaftan Kurta",
         price: "795",
         strikedoffprice: "₹2198",
         rating:"5.0 (2)",
       },
       {
-        image_url:
+        img_url:
           "Images/34.jpeg",
-          head:"Yuris",
-          name: "Yuris Blue Printed Straight Kurta",
+          name: "Yuris",
+          detail: "Yuris Blue Printed Straight Kurta",
         price: "759",
         strikedoffprice: "₹1999",
         rating:"3.3 (6)", 
       },
       {
-        image_url:
+        img_url:
           "Images/35.jpeg",
-          head:"Juniper",
-          name: "Juniper Navy A Line Kurta",
+          name: "Juniper",
+          detail: "Juniper Navy A Line Kurta",
         price: "775",
         strikedoffprice: "₹3099",
         rating:"5.0 (3)",
       },
       {
-        image_url:
+        img_url:
           "Images/36.jpeg",
-          head:"Janasya",
-          name: "Janasya Pewter Printed Straight Kurta",
+          name: "Janasya",
+          detail: "Janasya Pewter Printed Straight Kurta",
         price: "492",
         strikedoffprice: "₹1199",
         rating:"4.1 (10)",
       },
       {
-        image_url:
+        img_url:
           "Images/37.jpeg",
-          head:"Yuris",
-          name: "Yuris Pink Printed A Line Kurta",
+          name: "Yuris",
+          detail: "Yuris Pink Printed A Line Kurta",
         price: "769",
         strikedoffprice: "₹1799",
         rating:"5.0 (6)",
       },
       {
-        image_url:
+        img_url:
           "Images/38.jpeg",
-          head:"W",
-          name: "W Baby Pink Cotton Printed Straight Kurti",
+          name: "W",
+          detail: "W Baby Pink Cotton Printed Straight Kurti",
         price: "849",
         strikedoffprice: "₹1699",
         rating:"4.1 (10)",
       },
       {
-        image_url:
+        img_url:
           "Images/39.jpeg",
-          head:"Janasya",
-          name: "Janasya Blue Printed Straight Kurta",
+          name: "Janasya",
+          detail: "Janasya Blue Printed Straight Kurta",
         price: "474",
         strikedoffprice: "₹1399",
         rating:"",
       },
       {
-        image_url:
+        img_url:
           "Images/40.jpeg",
-          head:"KSUT",
-          name: "KSUT Blue & White Cotton Printed Straight Kurta",
+          name: "KSUT",
+          detail: "KSUT Blue & White Cotton Printed Straight Kurta",
         price: "749",
         strikedoffprice: "₹1799",
         rating:"5.0 (1)",
       },
   ];
   
+  // var productDetails = JSON.parse(localStorage.getItem("details")) || []
+
+  var productDetails =  []
+
 
   // console.log(typeof Number(mensData[1].rating.trim().split(" ")[0]))
 
@@ -410,13 +414,19 @@ function displayData(elem){
   womensData.map(function(elem){
  
     var div=document.createElement("div")
+    div.addEventListener("click",function(){
+
+      console.log(elem)
+      openProductDetail(elem)
+      window.location.href = "bag.html"
+  })
     
     var img=document.createElement("img")
-    img.src=elem.image_url;
+    img.src=elem.img_url;
 
 
     var name=document.createElement("h3")
-    name.innerText=elem.head;
+    name.innerText=elem.name;
 
     var bok=document.createElement("img")
     bok.src="https://encrypted-tbn0.gstatic.com/image?q=tbn:ANd9GcTFEQ9Tf-WEBVla9aEPvqAcra5Qk0ygt5Zn8Q&usqp=CAU"
@@ -426,7 +436,7 @@ function displayData(elem){
     div2.setAttribute("id","div2")
    
     var detail=document.createElement("p")
-    detail.innerText=elem.name
+    detail.innerText=elem.detail
 
     var div3=document.createElement("div")
     div3.setAttribute("id","div3")
@@ -453,15 +463,15 @@ function displayData(elem){
 
 });
 
-
-
- 
- 
-
-
 }
 
+function openProductDetail(elem){
 
+  // console.log(elem)
+  productDetails.push(elem)
+  localStorage.setItem("details",JSON.stringify(productDetails))
+
+}
 
 
   // womensData.map(function(elem){
