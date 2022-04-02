@@ -115,7 +115,7 @@
                     <img id="card" src="https://cdn-icons-png.flaticon.com/512/633/633611.png" alt="">
                     <div>Credit card</div>
 
-                    <p id="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></p>
+                    <p id="arrowPay"><i class="fa fa-angle-down" aria-hidden="true"></i></p>
                     <p id="arrowUpper"><i class="fa fa-angle-up" aria-hidden="true"></i></p>
 
                 </div>
@@ -290,20 +290,20 @@
     <script>
         var span = document.getElementById("container").addEventListener("click", myFnct)
 var div = document.getElementById("first")
-var arrow = document.getElementById("arrow")
+var arrowPay = document.getElementById("arrowPay")
 var arrowUpper = document.getElementById("arrowUpper")
 var count = 0;
 
 function myFnct() {
     count++
     if (count % 2 == 1) {
-        arrow.style.display = "none";
+        arrowPay.style.display = "none";
         arrowUpper.style.display = "inline-block"
         div.style.display = "inline-block";
 
     } else {
         arrowUpper.style.display = "none";
-        arrow.style.display = "inline-block";
+        arrowPay.style.display = "inline-block";
         div.style.display = "none";
 
     }

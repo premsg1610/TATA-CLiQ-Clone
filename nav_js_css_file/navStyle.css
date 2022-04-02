@@ -119,6 +119,9 @@ body{
   color: white;
   text-decoration: none;
 }
+.topMenu:hover{
+  color:white
+}
 /* Top Middle Section Navbar ENDS here */
 
 

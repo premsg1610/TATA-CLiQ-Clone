@@ -13,6 +13,14 @@
  document.querySelector("#itemPrice").innerText = "₹ "+ bagItems[bagItems.length-1].price
 
 
+ document.querySelector("#bagTotal1").innerText = "₹ "+ bagItems[bagItems.length-1].price
+
+ document.querySelector("#bagTotal2").innerText = "₹ "+ bagItems[bagItems.length-1].price
+
+//  document.querySelector("#bagTotal3").innerText = "₹ "+ bagItems[bagItems.length-1].price
+document.querySelector("#bagTotal4").innerText = "₹ "+ bagItems[bagItems.length-1].price
+
+
 
 //  bagItems.map(function(elem){
 

@@ -133,10 +133,11 @@
     margin-right: 670px;
   }
   
-  #arrow {
+  #arrowPay {
     height: 30px;
     width: 30px;
     display: inline-block;
+    
   }
   
   #arrowUpper {
