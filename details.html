@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    
+    <style>
+    #container{
+        width: 95%;
+        height: 600px;
+        /* border: solid; */
+        display: flex;
+        gap: 10px;
+        justify-content: space-around;
+        margin-left: 28px; 
+    }
+    #container>div{
+        /* height:70%; */
+        width:42%;
+        /* border: solid; */
+    }
+  
+    #b1{
+        display: flex;
+        width: 98%;height: 30px;
+        /* border: solid; */
+        justify-content: space-between;
+        font-weight: bold;
+        font-size: 30px;
+        margin-top: 28px;
+    }
+    #head{
+        /* font-size: 30px; */
+        margin-top: -4px;
+        color: black;
+    }
+    #hdetail{
+        color: rgb(75, 75, 75);
+        font-size: 23px;
+    }
+    #mrp{
+        display: flex;
+        /* border: 1px solid ; */
+        height: 30px;
+    }
+    #mrp>i{
+        margin-left: 73%;
+        margin-top: 11px;
+        color: rgb(114, 114, 114);
+        font-size: 30px;
+    }
+    #red{
+        color: red;
+    }
+    p{
+        color: rgb(77, 76, 76);
+    }
+    #b2{
+        height: 125px;
+        /* border: solid; */
+
+        line-height: 10px;
+    }
+    #bok{
+        margin-top: 10px;
+        cursor: pointer;
+        font-size: 24px;
+    }
+    #rating{
+        display: flex;
+        width: 36%;height: 24px;
+        /* border: solid; */
+        justify-content: space-around;
+        
+    }
+    #rating>p{
+        margin-top: 5px;
+    }
+    #rating>button{
+        background-color: #28ed5c;
+        margin-left: -5px;
+        border-radius: 9px;
+        border: 0px;
+
+    }
+    #size{
+        width: 70%;
+        height: 37px;
+        margin-top: 9px;
+        /* border: solid; */
+        display: flex;
+        justify-content: space-around;
+    }
+    #size>button{
+        border-radius: 50%;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+        border: 0px;
+        padding: 12px;
+        font-weight: bold;
+    }
+    #size>span{
+        margin-top: 8px;
+        margin-left: 5px;
+        color: red;
+        text-decoration: underline;
+    }
+    #cbt{
+        width: 28px;
+        height: 26px;
+        border-radius: 50%;
+        margin-top: -10px;
+        background-color: rgb(255, 146, 183);
+        border:0px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    #buy{
+        height: 50px; width: 80%;
+        /* border: solid; */
+        margin-top: 20px;
+        margin-left: -8%;
+        justify-content: space-around;
+        display: flex;
+        margin-top: -1px;
+        padding: 20px;
+    }
+    #buy>button{
+        padding: 1px 50px;
+        border-radius: 50px;
+        background-color: #e04a7d;
+        border: solid #e04a7d;
+        font-weight: bold;
+        cursor: pointer;
+        color: white;
+    }
+    #buy>button:nth-child(2){
+        background-color: white;
+        color: #e04a7d;
+        border: solid #e04a7d;;
+    }
+    
+    #web{
+        font-weight: bold;
+    }
+   #b3{
+       display: flex;
+       justify-content: space-around;
+       width: 77%;
+   }
+   #b3>input{
+       height: 30px;
+       width: 250px;
+       /* border-radius: 30px; */
+       margin-top: 6px;
+       margin-left: -9px;
+       border-top:0px;
+       border-left: 0px;
+       border-right: 0px;
+   }
+   #b3>p{
+       font-weight: bold;
+   }
+   #b3>span{
+       margin-top: 14px;
+       color: red;
+       cursor: pointer;
+   }
+   hr{
+       margin-top: 30px;
+   }
+img{
+    width: 80%;
+    height: 110%;
+    margin-left: 30px;
+}
+/* img:hover{
+    transform: scale(1.5);
+} */
+#lastbox{
+    width:100% ;
+    height: 390px;
+    border: solid white;
+    margin-top: 60px;
+    background-color: rgb(226, 226, 226);
+}
+#lastbox>div{
+    width: 88%;
+    height: 80%;
+    /* border: solid; */
+    margin-top: 40px;
+    margin-left: 70px;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    background-color: white;
+}
+#bb{
+width:90%;height: 80%;
+/* border: solid; */
+display: flex;
+justify-content: space-around;
+}
+.bb1{
+    width: 16%;height: 100%;
+    /* border: solid; */
+    margin-left: -100px;
+}
+#lastbox>div p{
+    color: rgb(54, 54, 54);
+}
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div><img id="img" src="https://m.media-amazon.com/images/I/81dkSgs7nsL._UY741_.jpg" ></div>
+        <div id="detail">
+            <p>home > Women's Clot > Ethnic Wear > Kurtis & Kurt > Utsa by west</p>
+            <div id="b1">
+                <p id="head">Utsa</p>
+                <!-- <img id="bok" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFEQ9Tf-WEBVla9aEPvqAcra5Qk0ygt5Zn8Q&usqp=CAU"> -->
+                <i id="bok" class="fa-regular fa-heart"></i>
+            </div>
+           <p id="hdetail">Utsa by Westside Lilac Lucknowi A-line Kurta</p>
+            <div id="b2">
+               <div id="mrp">
+                    <h2> MRP:</h2>
+                    <h2 id="price">1299</h2>
+                    <i class="fa-solid fa-share-nodes"></i>
+               </div> 
+                <p>inclusive of all taxes</p>
+                <p id="red">Free Shipping till 31st March</p>
+                <div id="rating">
+                        <button>4.5</button>
+                        <p>9 Ratings & 1 Review</p>
+                </div>
+            </div>
+            <div id="size">
+                <button  class="bt1">XS</button>
+                <button  class="bt1">S</button>
+                <button  class="bt1">M</button>
+                <button  class="bt1">L</button>
+                <button  class="bt1">XL</button>
+                <button  class="bt1">XXL</button>
+                <span>Size guide</span>
+            </div>
+               <p>colour</p>
+               <button id="cbt"></button>
+               <div id="buy">
+                   <button>BUY NOW</button>
+                   <button>ADD TO BAG</button>
+               </div>
+               <span>Solid directly by </span>
+               <span id="web">Westside</span>
+               <hr>
+              <div id="b3">
+                <p>Ship To</p><input type="text"placeholder="Pin code">
+                <span>Change</span>
+            </div> 
+        </div>
+        </div>
+    </div>
+    <div id="lastbox">
+        <div >
+            <h3>Product Description</h3>
+            <p>Opt for breathable options for your ethnic line-up this summer like this lilac 
+                kurta from Utsa. Showcasing intricate Lucknowi embroidery at the yoke coupled 
+                with dotted designs all over for a touch of elegance, the A-line silhouette 
+                comes finished with a slit pocket for a practical touch.</p>
+                <div id="bb">
+                    <div class="bb1">
+                        <h4>Fit</h4>
+                        <p>Regular fit</p>
+                        <h4 class="l1">Model fit</h4>
+                        <p>Model is 5ft 7 in/170cm and is wearing a Small</p>
+                    </div>
+                    <div class="bb1">
+                        <h4>Pattern</h4>
+                        <p>Embroidered</p>
+                        <h4 class="l1">Fabric</h4>
+                        <p>85% Cotton, 15% Linen</p>
+                    </div>
+                    <div class="bb1">
+                        <h4>Color</h4>
+                        <p>Lilac</p>
+                    </div>
+                </div>
+        </div>
+
+    </div>
+</body>
+</html>
+<script  src="https://kit.fontawesome.com/24c494a6b6.js"
+        crossorigin="anonymous"> 
+    </script>
+    
+ <script>
+    
+var  btn = document.querySelectorAll('#size>button');
+for(var i=0;i<btn.length;i++){
+
+    btn[i].addEventListener('click',function(event){
+        onClick(event)
+    })
+}
+function onClick(event){
+
+    // console.log(event.target)
+//     window.location.reload();
+    event.target.style.backgroundColor ='black';
+   event.target.style.color = 'white';
+}
+ </script>
+
