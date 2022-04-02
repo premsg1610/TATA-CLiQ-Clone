@@ -418,7 +418,7 @@ function displayData(elem){
 
       console.log(elem)
       openProductDetail(elem)
-      window.location.href = "bag.html"
+      window.location.href = "details.html"
   })
     
     var img=document.createElement("img")

@@ -4,11 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Payment</title>
     <link rel="stylesheet" href="payment.css">
+
+    <link rel="stylesheet" href="nav_js_css_file/navStyle.css">
+    <script
+        src="https://kit.fontawesome.com/24c494a6b6.js"
+        crossorigin="anonymous"
+    ></script>
+    <style>
+        .loginDropdown{
+            margin-top:20px;
+            background-color:#212121 !important;
+        }
+        .loginBtn{
+            float: right;
+            background-color: #212121;
+            color: white; 
+            font-size: 25px;
+        }
+    </style>
 
 </head>
 <body>
+
+<!-- Header Section Navbar STARTS Here-->
+
+<div id="navContainer" style="height:75px">
+    <div></div>
+    <div class="navMiddle">
+        <div class="logoHolder">
+            <img src="nav_js_css_file/tata_cliq.png" alt="tata-cliq_logo">
+        </div>
+        <div class="navFunctHolder">
+                    <div  class="loginDropdown">
+                        <span id="profileIcon" class="loginBtn" >
+                            <i class="fa-solid fa-circle-user"></i>&nbsp;&nbsp;
+                            <i class="fa-solid fa-angle-down" style="font-size: 18px;"></i>
+                        </span>
+
+                        <div class="loginDropdown-content" style="top: 35px;">
+                            <span style="right:0.5px; top:-10px;"><i class="fa-solid fa-sort-up"></i></span>
+                            <!-- <p id="arrow"></p> -->
+                            <button id="loginBtn" onclick="openNav()"  style="display: none;">Login/ Register</button>
+                            <p><a href="#"><i class="fa-regular fa-user"></i>&nbsp;&nbsp;&nbsp;My account</a></p>
+                            <p><a href="#"><i class="fa-solid fa-bag-shopping"></i>&nbsp;&nbsp;&nbsp;Order History</a></p>
+                            <p><a href="#"><i class="fa-regular fa-heart"></i>&nbsp;&nbsp;&nbsp;My Wishlist</a></p>
+                            <p><a href="#"><i class="fa-regular fa-bell"></i>&nbsp;&nbsp;&nbsp;Alerts & Coupon</a></p>
+                            <p><a href="#"><i class="fa-solid fa-gift"></i>&nbsp;&nbsp;&nbsp;Gift Card</a></p>
+                            <p><a href="#"><i class="fa-solid fa-money-bill-1-wave"></i>&nbsp;&nbsp;&nbsp;CLiQ Cash</a></p>
+                            <p id="logOut"><a href="#"><i class="fa-solid fa-gear"></i>&nbsp;&nbsp;&nbsp;Log Out</a></p>
+                        </div>
+
+                    </div>
+        </div>
+    </div>
+    <div></div>
+</div>
+
+<!-- Header Section Navbar ENDS Here-->
+
+
+
+
     <h1 id="titlePayment">Checkout</h1>
 
     <div class="paymentConti">
@@ -21,7 +79,7 @@
                      <p style="display: inline-block;" id="stchange" class="side">Change</p>
                 </div>
                 <div id="ha">
-                    <h4 style="display: inline-block;">Home :</h4>
+                    <h4 style="display: inline-block;">Home</h4>
                     <p style="display: inline-block;">Address</p>
                 </div>
             </div>
@@ -57,7 +115,7 @@
                     <img id="card" src="https://cdn-icons-png.flaticon.com/512/633/633611.png" alt="">
                     <div>Credit card</div>
 
-                    <p id="arrow"><i class="fa fa-angle-down" aria-hidden="true"></i></p>
+                    <p id="arrowPay"><i class="fa fa-angle-down" aria-hidden="true"></i></p>
                     <p id="arrowUpper"><i class="fa fa-angle-up" aria-hidden="true"></i></p>
 
                 </div>
@@ -188,6 +246,8 @@
                 <div id="CashOnDelivery">
                     <img id="COD" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScijy7QGvA0hpCzmPI6rWQTZZIIU7L79gy-g&usqp=CAU" alt="">
                     <div>Cash On Delivery</div>
+                    
+                   
 
                 </div>
             </div>
@@ -205,6 +265,10 @@
                 </div>
                 <div class="cartPricing">
                     <p>Bag Subtotal</p>
+                    <p class="cartRflot">0.00</p>
+                </div>
+                <div class="cartPricing">
+                    <p>Product discount(s)</p>
                     <p class="cartRflot">0.00</p>
                 </div>
                 <div class="greenDisco">You will save ₹0 on this order</div>
@@ -226,20 +290,20 @@
     <script>
         var span = document.getElementById("container").addEventListener("click", myFnct)
 var div = document.getElementById("first")
-var arrow = document.getElementById("arrow")
+var arrowPay = document.getElementById("arrowPay")
 var arrowUpper = document.getElementById("arrowUpper")
 var count = 0;
 
 function myFnct() {
     count++
     if (count % 2 == 1) {
-        arrow.style.display = "none";
+        arrowPay.style.display = "none";
         arrowUpper.style.display = "inline-block"
         div.style.display = "inline-block";
 
     } else {
         arrowUpper.style.display = "none";
-        arrow.style.display = "inline-block";
+        arrowPay.style.display = "inline-block";
         div.style.display = "none";
 
     }
@@ -266,3 +330,11 @@ function showData() {
     }
 }
     </script>
+
+
+
+<script src="nav_js_css_file/brands.js"></script>
+
+<script src="nav_js_css_file/nav.js"></script>
+
+<script src="nav_js_css_file/pop.js"></script>
