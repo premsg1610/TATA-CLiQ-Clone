@@ -28,6 +28,7 @@
 </head>
 <body>
 
+    
 <!-- Header Section Navbar STARTS Here-->
 
 <div id="navContainer" style="height:75px">
@@ -161,9 +162,6 @@
                 </div>
                 <hr>
 
-
-
-
                 <div id="DebitContainer">
                     <img id="Debit" src="https://cdn-icons-png.flaticon.com/512/3037/3037255.png" alt="">
                     <div>Debit Card</div>
@@ -257,25 +255,25 @@
             <div id="pricing">
                 <div class="cartPricing">
                     <p>Bag Total</p>
-                    <p class="cartRflot">0.00</p>
+                    <p class="cartRflot" id="total1">0.00</p>
                 </div>
                 <div class="cartPricing">
                     <p>Shipping Charge</p>
-                    <p>0.00</p>
+                    <p id="green">FREE</p>
                 </div>
-                <div class="cartPricing">
+                <div class="cartPricing" id="area">
                     <p>Bag Subtotal</p>
-                    <p class="cartRflot">0.00</p>
+                    <p class="cartRflot" id="total2">0.00</p>
                 </div>
-                <div class="cartPricing">
+                <!-- <div class="cartPricing">
                     <p>Product discount(s)</p>
                     <p class="cartRflot">0.00</p>
-                </div>
-                <div class="greenDisco">You will save ₹0 on this order</div>
+                </div> -->
+                <!-- <div class="greenDisco">You will save ₹0 on this order</div> -->
                 <hr>
                 <div class="cartTotalPrice" >
                     <p>Total Payable</p>
-                    <p class="cartRflot">0.00</p>
+                    <p class="cartRflot" id="total3">0.00</p>
                 </div>
 
             </div>
@@ -330,7 +328,31 @@ function showData() {
     }
 }
     </script>
+<script>
+    var bagItems = JSON.parse(localStorage.getItem("bagItems")) 
+    document.querySelector("#total1").innerText="₹ "+ bagItems[bagItems.length-1].price;
+    document.querySelector("#total2").innerText="₹ "+ bagItems[bagItems.length-1].price;
+    document.querySelector("#total3").innerText="₹ "+ bagItems[bagItems.length-1].price;
 
+    document.querySelector("#btn").addEventListener("click",creditFun)
+
+    function  creditFun(){
+
+        alert("OTP sent successfully")
+        window.location.href ="successfully.html"
+    }
+
+
+    document.querySelector("#Button").addEventListener("click",debitFun)
+
+    
+    function  debitFun(){
+
+    alert("OTP sent successfully")
+    window.location.href ="successfully.html"
+}
+
+</script>
 
 
 <script src="nav_js_css_file/brands.js"></script>

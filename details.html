@@ -239,8 +239,8 @@ justify-content: space-around;
                     <div>Tata CLiQ Luxury</div>
                     <div class="topMiddleSection_Menu">
                         <div  class="loginDropdown">
-                            <span id="signInText" class="loginBtn" style="cursor: pointer; padding: 10px 0;">Sign in/Sign Up</span>
-                            <span id="profileIcon" class="loginBtn" style="display: none;">
+                            <span id="signInText" class="loginBtn" style="cursor: pointer; padding: 10px 0; display:none">Sign in/Sign Up</span>
+                            <span id="profileIcon" class="loginBtn" >
                                 <i class="fa-solid fa-circle-user"></i>&nbsp;&nbsp;&nbsp;
                                 <i class="fa-solid fa-angle-down"></i>
                             </span>
@@ -248,13 +248,15 @@ justify-content: space-around;
                             <div class="loginDropdown-content">
                                 <span><i class="fa-solid fa-sort-up"></i></span>
                                 <!-- <p id="arrow"></p> -->
-                                <button id="loginBtn" onclick="openNav()">Login/ Register</button>
+                                <button id="loginBtn" onclick="openNav()" style="display: none;">Login/ Register</button>
                                 <p><a href="#"><i class="fa-regular fa-user"></i>&nbsp;&nbsp;&nbsp;My account</a></p>
                                 <p><a href="#"><i class="fa-solid fa-bag-shopping"></i>&nbsp;&nbsp;&nbsp;Order History</a></p>
                                 <p><a href="#"><i class="fa-regular fa-heart"></i>&nbsp;&nbsp;&nbsp;My Wishlist</a></p>
                                 <p><a href="#"><i class="fa-regular fa-bell"></i>&nbsp;&nbsp;&nbsp;Alerts & Coupon</a></p>
                                 <p><a href="#"><i class="fa-solid fa-gift"></i>&nbsp;&nbsp;&nbsp;Gift Card</a></p>
                                 <p><a href="#"><i class="fa-solid fa-money-bill-1-wave"></i>&nbsp;&nbsp;&nbsp;CLiQ Cash</a></p>
+                                <p id="logOut"><a href="index.html"><i class="fa-solid fa-gear"></i>&nbsp;&nbsp;&nbsp;Log Out</a></p>
+
                             </div>
 
                         </div>
