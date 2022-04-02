@@ -3,14 +3,14 @@
 }
 #top{
     height: 62px;
-    width: 80%;
+    width: 90%;
     /* border: 1px solid black; */
     margin: auto;
     padding-top: 40px;
 }
 .bottom{
     height: 800px;
-    width: 80%;
+    width: 90%;
     /* border: 1px solid red; */
     margin: auto;
     margin-top: 20px;
@@ -176,19 +176,33 @@ hr{
     margin-top: 15px;
     width: 95%;
 }
+.sec4{
+    /* border:solid; */
+    display:flex;
+    width:40%;
+    margin-left:400px;
+    margin-top:50px;
+    justify-content: baseline;
+}
 #btn1{
-    margin-top: 50px;
-    margin-left: 500px;
+    /* margin-top: 30px; */
+    /* margin-left: 500px; */
     background-color: white;
     color: #ff1744;
     font-weight: bold;
     border: none;
     cursor: pointer;
+    /* border:1px solid black; */
+    width: 180px;
+    height: 40px;
+    
+    
+  
 }
 #btn2{
-    padding: 10px;
+    /* padding: 10px; */
     border-radius: 50px;
-    margin-left: 30px;
+    /* margin-left:600px; */
     background-color: #ff1744;
     border: none;
     color: white;
@@ -196,6 +210,7 @@ hr{
     height: 40px;
     font-weight: bold;
     cursor: pointer;
+    /* border:1px solid black; */
 }
 
 
