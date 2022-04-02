@@ -1,9 +1,9 @@
 var categoriesArray=[
     [
-      '<tr>  <th><a href="#">Kurta Store</a></th>  <th><a href="#">Swim & Beachwear</a></th>  <td><a href="#">Curvy Fashion</a></td>  <td><a href="#">Sporty watches</a></td>   </tr>',
+      '<tr>  <th><a href="women.html">Kurta Store</a></th>  <th><a href="#">Swim & Beachwear</a></th>  <td><a href="#">Curvy Fashion</a></td>  <td><a href="#">Sporty watches</a></td>   </tr>',
       '<tr>  <th><a href="#">The Dress Store</a></th>  <th><a href="#">Active & Sportswear</a></th>  <th><a href="#">View All Clothing</a></th>  <th><a href="#">Handbags & Wallets</a></th>   </tr>',
       '<tr>  <th><a href="#">Ethnic Wear</a></th>  <th><a href="#">Western Wear</a></th>  <th><a href="#">Footwear</a></th>  <td><a href="#">Handbags</a></td>   </tr>',
-      '<tr>  <td><a href="#">Kurtas & Kurtis</a></td>  <td><a href="#">Top & Tees</a></td>  <td><a href="#">Casual</a></td>  <td><a href="#">Tote Bags</a></td>   </tr>',
+      '<tr>  <td><a href="women.html">Kurtas & Kurtis</a></td>  <td><a href="#">Top & Tees</a></td>  <td><a href="#">Casual</a></td>  <td><a href="#">Tote Bags</a></td>   </tr>',
       '<tr>  <td><a href="#">Suit Sets</a></td>  <td><a href="#">Dresses</a></td>  <td><a href="#">Ethnic</a></td>  <td><a href="#">Sling Bags</a></td>   </tr>',
       '<tr>  <td><a href="#">Sarees & Lehenga sets</a></td>  <td><a href="#">Shirts</a></td>  <td><a href="#">Formal</a></td>  <td><a href="#">Laptop Bags</a></td>   </tr>',
       '<tr>  <td><a href="#">Bottoms</a></td>  <td><a href="#">Pant & Trousers</a></td>  <td><a href="#">Sneakers</a></td>  <td><a href="#">Backpacks</a></td>   </tr>',
@@ -18,7 +18,7 @@ var categoriesArray=[
     ],
     [
       '<tr>  <th><a href="#">Footwear</a></th>  <td><a href="#">Jeans</a></td>  <th><a href="#">Watches</a></th>  <td><a href="#">Duffle Bags</a></td>   </tr>',
-      '<tr>  <td><a href="#">Casual Shoes</a></td>  <td><a href="#">Trousers & Chinos</a></td>  <td><a href="#">Smart Watches</a></td>  <td><a href="#">Rucksack & Trekking </a></td>   </tr>',
+      '<tr>  <td><a href="mens.html">Casual Shoes</a></td>  <td><a href="#">Trousers & Chinos</a></td>  <td><a href="#">Smart Watches</a></td>  <td><a href="#">Rucksack & Trekking </a></td>   </tr>',
       '<tr>  <td><a href="#">Sneakers</a></td>  <td><a href="#">Shorts</a></td>  <td><a href="#">Workwear Watches</a></td>  <td><a href="#">Backpacks</a></td>   </tr>',
       '<tr>  <td><a href="#">Formal Shoes</a></td>  <td><a href="#">Sweat Shirts</a></td>  <td><a href="#">Casual Watches</a></td>  <th><a href="#">Fashion Accessories</a></th>   </tr>',
       '<tr>  <td><a href="#">Running Shoes</a></td>  <td><a href="#">Casual Jackets</a></td>  <td><a href="#">Partywear Watches</a></td>  <td><a href="#">Belts</a></td>   </tr>',
@@ -53,7 +53,7 @@ var categoriesArray=[
     [
       '<tr>  <th><a href="#">Electronics Deals</a></th>  <td><a href="#">OnePlus</a></td>  <td><a href="#">Screen Protectors</a></td>  <td><a href="#">Apple Watch</a></td>   </tr>',
       '<tr>  <th><a href="#">Mobile Phones Store</a></th>  <th><a href="#">Shop by Feature</a></th>  <td><a href="#">Chargers</a></td>  <td><a href="#">Fitness Trackers</a></td>   </tr>',
-      '<tr>  <td><a href="#">Mobile Phones</a></td>  <td><a href="#">5G Phones</a></td>  <td><a href="#">Cables</a></td>  <th><a href="#">Value-Added Services</a></th>   </tr>',
+      '<tr>  <td><a href="mobile.html">Mobile Phones</a></td>  <td><a href="#">5G Phones</a></td>  <td><a href="#">Cables</a></td>  <th><a href="#">Value-Added Services</a></th>   </tr>',
       '<tr>  <td><a href="#">iPhone</a></td>  <td><a href="#">Gaming Phones</a></td>  <td><a href="#">Power Banks</a></td>  <td><a href="#">Extended Warranty</a></td>   </tr>',
       '<tr>  <td><a href="#">New Launches</a></td>  <td><a href="#">Selfie Phones</a></td>  <td><a href="#">Memory Cards</a></td>  <td><a href="#">Exchange Offers</a></td>   </tr>',
       '<tr>  <td><a href="#">Flagship Phones</a></td>  <td><a href="#">Long Battery Life</a></td>  <td><a href="#">Mobile Holders</a></td>  <th><a href="#">View Other Categories</a></th>   </tr>',
