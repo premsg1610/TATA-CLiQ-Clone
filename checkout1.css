@@ -97,9 +97,9 @@ input[type='radio'] {
 }
 .sec3{
     height: 100px;
-    width: 300px;
+    width: 750px;
     /* border: 1px solid black; */
-    margin-left: 65px;
+    margin-left: 39px;
     /* margin-top: 5px; */
     display:flex;
    
@@ -113,16 +113,21 @@ input[type='radio'] {
 }
 #home{
     height: 93px;
-    width: 293px;
+    width: 300px;
     border: 0px solid white;
     outline: none;
     resize: none;
+    /* border:1px solid red; */
+    display:flex;
+    justify-content:center;
+    margin-left:30px;
+   
 
 }
 #btn1{
     padding: 10px;
     border-radius: 50px;
-    /* margin-left: 400px; */
+    margin-left: -160px;
     /* margin-bottom: -10px; */
     background-color: #ff1744;
     border: none;
