@@ -382,7 +382,7 @@ function displayData(elem){
 
             console.log(elem)
             openProductDetail(elem)
-            window.location.href = "bag.html"
+            window.location.href = "details.html"
         })
         
         var img=document.createElement("img")
@@ -408,7 +408,7 @@ function displayData(elem){
         pri.innerText=elem.price
 
         var off=document.createElement("s")
-        off.innerText=elem.off
+        off.innerText=elem.strikedoffprice
         off.style.paddingLeft = "15px"
 
         var rat=document.createElement("p")
@@ -435,6 +435,8 @@ function openProductDetail(elem){
     localStorage.setItem("details",JSON.stringify(productDetails))
 
 }
+
+
 
 // mensData.map(function(ele){
 //     var box = document.createElement("div");

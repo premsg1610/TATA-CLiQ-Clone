@@ -416,12 +416,14 @@
   /* style by bharat */
   body {
     background-color: #ececec;
+    font-family: sans-serif;
+    /* font-size: 14px; */
   }
   
   .cartTotalInfo {
     width: 300px;
-    height: 260px;
-    margin-top: 10px;
+    height: 300px;
+    margin-top: 1px;
     background-color: white;
     padding: 20px;
     border-radius: 5px;
