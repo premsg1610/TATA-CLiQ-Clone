@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="checkout.css">
+    <!-- <link rel="stylesheet" href="bag.css"> -->
+    <link rel="stylesheet" href="nav_js_css_file/navStyle.css">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous">    
+    </script>
+</head>
+<body>
+
+    <!-- Header Section Navbar STARTS Here-->
+
+<div id="navContainer" style="height:75px">
+    <div></div>
+    <div class="navMiddle">
+        <div class="logoHolder">
+            <img src="nav_js_css_file/tata_cliq.png" alt="tata-cliq_logo">
+        </div>
+        <div class="navFunctHolder">
+                    <div  class="loginDropdown" style="background-color:#212121; padding-top:20px; font-size:25px">
+                        <span id="profileIcon" class="loginBtn" style="color:white !important">
+                            <i class="fa-solid fa-circle-user"></i>&nbsp;&nbsp;
+                            <i class="fa-solid fa-angle-down" style="font-size: 18px;"></i>
+                        </span>
+
+                        <div class="loginDropdown-content" style="top: 35px;">
+                            <span style="right:0.5px; top:-10px;"><i class="fa-solid fa-sort-up"></i></span>
+                            <!-- <p id="arrow"></p> -->
+                            <button id="loginBtn" onclick="openNav()"  style="display: none;">Login/ Register</button>
+                            <p><a href="#"><i class="fa-regular fa-user"></i>&nbsp;&nbsp;&nbsp;My account</a></p>
+                            <p><a href="#"><i class="fa-solid fa-bag-shopping"></i>&nbsp;&nbsp;&nbsp;Order History</a></p>
+                            <p><a href="#"><i class="fa-regular fa-heart"></i>&nbsp;&nbsp;&nbsp;My Wishlist</a></p>
+                            <p><a href="#"><i class="fa-regular fa-bell"></i>&nbsp;&nbsp;&nbsp;Alerts & Coupon</a></p>
+                            <p><a href="#"><i class="fa-solid fa-gift"></i>&nbsp;&nbsp;&nbsp;Gift Card</a></p>
+                            <p><a href="#"><i class="fa-solid fa-money-bill-1-wave"></i>&nbsp;&nbsp;&nbsp;CLiQ Cash</a></p>
+                            <p id="logOut"><a href="#"><i class="fa-solid fa-gear"></i>&nbsp;&nbsp;&nbsp;Log Out</a></p>
+                        </div>
+
+                    </div>
+        </div>
+    </div>
+    <div></div>
+</div>
+
+<!-- Header Section Navbar ENDS Here-->
+    <div id="main">
+        <div id="top"> 
+            <h1>Checkout</h1>   
+        </div>
+        <div class="bottom">        
+            <div class="firstDiv">
+                <div class="sec1">
+                    <div class="subsec1">
+                        <div class="num">1</div>
+                        <div><h3>Add Shipping Address</h3></div>
+                    </div>
+                    <div class="subsec2"><a href="">Clear all</a></div>
+                </div>
+                <form action="">
+                    <div class="sec2">
+                        <div><input id="fname" type="text" placeholder="First Name(Required)*"/></div>
+                        <div><input id="lname" type="text" placeholder="Last Name(Required)*"/></div>
+                        <div><input id="pcode" type="number" placeholder="Enter your PIN code(Required)*"/>
+                        </div>
+                        <div><input id="city" type="text" placeholder="City/district(Required)*"/></div>
+                        <div>
+                            <textarea id="home" rows = "5" cols = "80" name = "description" value="" placeholder="Flat/House No., Floor, Building/Company/Apartment Name, Road/Street Name, Area, Colont,Sector,Village(Required)*"></textarea>Character Limit : 120 
+                        </div>
+                        <div><input id="state" type="text" placeholder="State(Required)*"/></div>
+                        <div> 
+                            <select id="land">
+                            <option>Landmark</option>
+                            <option>Other</option>
+                            </select>
+                        </div>
+                        <div><input id="phn" type="number" placeholder="Phone/Mobile Number(Required)*"/></div>
+                    </div>
+                </form>
+                
+                <div class="sec3">
+                   <input id="radio1" type="radio" name="opt" value="home"/>
+                   <label id="label1">Home</label>
+                   <input id="radio2" type="radio" name="opt" value="office">
+                   <label id="label2">Office</label>
+                </div>
+                <hr>
+                <div class="sec4">
+                   <button id="btn1">Cancel</button>
+                   <button id="btn2">Save & Continue</button>
+                </div>
+            </div>
+    
+            <div class="secondDiv">
+                <div class="total">
+                    <div>
+                        <p id="child1">Bag Total</p>
+                        <p id="bagTotal1">0</p>
+                    </div>
+                    <div id="child2">
+                        <p>Shipping Charge</p>
+                        <p id="green">FREE</p>
+                    </div>
+                    <div>
+                        <p>Bag SubTotal</p>
+                        <p id="bagTotal2">0</p>
+                    </div>
+                    <!-- <div>
+                        <p id="child4">Discount</p>
+                    </div> -->
+                    <!-- <div>
+                        <p id="child5">You will save ₹0 on this order</p>
+                    </div> -->
+                    <hr id="line">
+                    <div style="font-size: 25px; font-weight: bold;">
+                        <p id="total">Total</p>
+                        <p id="bagTotal4">₹ 1799</p>
+                    </div>
+                    
+                </div>
+                <div id="safe">
+                   <div><img src="Images/safe&secure.png"/></div>
+                   <div id="last">Safe and secure payments. Easy returns. 100% Authentic products.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<!-- <script src="checkout.js"></script> -->
+<script>
+    document.querySelector("#btn2").addEventListener("click",myfunction);
+    function myfunction(){
+        window.location.href="checkout1.html";
+        var name1 = document.querySelector("#home").value;
+    localStorage.setItem("textarea",JSON.stringify(name1));
+    }
+    document.querySelector("#btn1").addEventListener("click",myfunction1);
+    function myfunction1(){
+        window.location.href="women.html";
+    }
+
+    var bagItems = JSON.parse(localStorage.getItem("bagItems")) 
+
+
+    document.querySelector("#bagTotal1").innerText = "₹ "+ bagItems[bagItems.length-1].price
+
+    document.querySelector("#bagTotal2").innerText = "₹ "+ bagItems[bagItems.length-1].price
+
+    //  document.querySelector("#bagTotal3").innerText = "₹ "+ bagItems[bagItems.length-1].price
+    document.querySelector("#bagTotal4").innerText = "₹ "+ bagItems[bagItems.length-1].price
+
+    
+</script>
+<!-- 
+<script src="bag.js"></script> -->
+
+
+<script src="nav_js_css_file/brands.js"></script>
+
+<script src="nav_js_css_file/nav.js"></script>
+
+<script src="nav_js_css_file/pop.js"></script>

@@ -110,7 +110,7 @@
     margin-right: 5px;
     /* border: solid red; */
   }
-#container {
+ #container {
     height: 40px;
     width: 900px;
     margin-bottom: 5px;
@@ -406,8 +406,13 @@
     font-weight: bold;
     font-size: 20px;
   }
-  
-  
+  #green{
+    color: #0f9654;
+    font-weight: bolder;
+}
+  #area{
+    margin-bottom: 60px;
+  }
   hr {
     width: 90%;
     margin: auto;
@@ -432,10 +437,11 @@
   }
   
   .cartPricing {
-    margin: 20px 10px;
+    margin: 30px 10px;
     display: flex;
     justify-content: space-between;
     font-size: 18px;
+    
   }
   
   .cartPricing p {

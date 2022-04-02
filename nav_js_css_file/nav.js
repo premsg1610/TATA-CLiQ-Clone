@@ -258,7 +258,12 @@ var categoriesArray=[
   }
   
   
-  
+  document.querySelector(".logoHolder").addEventListener("click",homepageFun)
+
+  function homepageFun(){
+
+    window.location.href = "index.html"
+  }
   
   // var searchBar =document.getElementById("search")
   // searchBar.addEventListener("click", changeSearch)

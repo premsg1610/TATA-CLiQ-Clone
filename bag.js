@@ -3,7 +3,7 @@
  var bagItems = JSON.parse(localStorage.getItem("bagItems")) 
 
  console.log(bagItems)
- console.log("prem")
+//  console.log("prem")
 
 
  document.querySelector("#img").src = bagItems[bagItems.length-1].img_url
@@ -21,6 +21,27 @@
 document.querySelector("#bagTotal4").innerText = "₹ "+ bagItems[bagItems.length-1].price
 
 
+document.querySelector("#btn1").addEventListener("click",myfunction);
+    function myfunction(){
+        window.location.href="checkout.html";
+    }
+
+document.querySelector("#delet").addEventListener("click",removeItem);
+
+    function removeItem(){
+        // console.log(elem,index)
+        // cartData.splice(index,1)
+        // console.log(cartData)
+        // localStorage.setItem("cart",JSON.stringify(cartData))
+
+    document.querySelector("#maincontainer").style.display = "none"
+
+    document.querySelector("#emptyBox").style.display = "block"
+        // if we click remove item then it will remove but show only when we refresh our page
+        // to fix this we use this function:
+        // window.location.reload()
+
+    }
 
 //  bagItems.map(function(elem){
 
