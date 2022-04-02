@@ -3,21 +3,21 @@
 }
 #top{
     height: 62px;
-    width: 80%;
+    width: 90%;
     /* border: 1px solid black; */
     margin: auto;
     padding-top: 40px;
 }
 .bottom{
     height: 470px;
-    width: 80%;
+    width: 90%;
     /* border: 1px solid red; */
     margin: auto;
     margin-top: 20px;
     display: flex;
 }
 .firstDiv{
-    height: 300px;
+    height: 220px;
     width: 69%;
     /* border: 1px solid blue; */
     /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
@@ -101,6 +101,15 @@ input[type='radio'] {
     /* border: 1px solid black; */
     margin-left: 65px;
     /* margin-top: 5px; */
+    display:flex;
+   
+
+}
+.sec4{
+    /* border:1px solid teal; */
+    margin-left:600px;
+    
+
 }
 #home{
     height: 93px;
@@ -108,11 +117,12 @@ input[type='radio'] {
     border: 0px solid white;
     outline: none;
     resize: none;
+
 }
 #btn1{
     padding: 10px;
     border-radius: 50px;
-    margin-left: 660px;
+    /* margin-left: 400px; */
     /* margin-bottom: -10px; */
     background-color: #ff1744;
     border: none;
@@ -121,6 +131,7 @@ input[type='radio'] {
     height: 40px;
     cursor: pointer;
     font-weight: bold;
+    margin-top:30px
 }
 
 
