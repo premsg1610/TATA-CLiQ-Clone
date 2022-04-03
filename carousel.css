@@ -3,7 +3,7 @@
     /* border:1px solid; */
     justify-content: flex-end;
     margin-right: 50px;
-    
+    z-index:1;
 }
 .carousel-control-prev{
     border:1px;

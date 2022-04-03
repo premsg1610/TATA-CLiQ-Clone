@@ -82,7 +82,7 @@
                 </div>
                 <div id="ha">
                     <h4 style="display: inline-block;">Home</h4>
-                    <p style="display: inline-block;">Address</p>
+                    <p id="address" style="display: inline-block;"></p>
                 </div>
             </div>
             <div class="dmod">
@@ -352,6 +352,11 @@ function showData() {
     alert("OTP sent successfully")
     window.location.href ="successfully.html"
 }
+
+
+var name1 = JSON.parse(localStorage.getItem("textarea"));
+    console.log(name1);
+    document.querySelector("#address").innerText = name1;
 
 </script>
 
