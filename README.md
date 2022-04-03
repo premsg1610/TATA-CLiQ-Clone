@@ -6,14 +6,22 @@ We are students of Masai School from Web17 batch and we presenting our project,b
 
  🚀 This link for the same is here : https://tata-cliq-clone.netlify.app
  
- 📚 Blog link : https://medium.com/@sunilroka/construct-week-masai-school-deacc611daa4
 
 # Our Team Members 👨‍💻
-  - **[Ashok Kumar](https://github.com/Akshit3010)**
-- **[ Chetan Sharma](https://github.com/krashoka)**
-- **[Prem Sagar Gupta](https://github.com/premsg1610)**
-- **[Shipra Pal](https://github.com/ships97)**
-- **[Sunil Kumar Roka](https://github.com/Roka24)**
+  - **[Ashok Kumar](https://github.com/krashoka)**
+  - 📚 Blog link : https://medium.com/@kumarashoka7677/construct-week-masai-school-e0f17adbb5c7
+  
+  - **[Chetan Sharma](https://github.com/cs2812)**
+  - 📚 Blog link : https://medium.com/@cs786786786/construct-week-masai-school-89197e6749ff
+   
+  - **[Prem Sagar Gupta](https://github.com/premsg1610)**
+  - 📚 Blog link : https://medium.com/@premsgupta1997/construct-week-masai-school-236beb431ead
+  
+  - **[Shipra](https://github.com/ships97)**
+  - 📚 Blog link : https://medium.com/@shiprapal97/construct-week-masai-school-fcde3478f9ba
+   
+  - **[Sunil Kumar Roka](https://github.com/Roka24)**
+  - 📚 Blog link : https://medium.com/@sunilroka/construct-week-masai-school-deacc611daa4
 
 
 ### Pages & Features 👇
