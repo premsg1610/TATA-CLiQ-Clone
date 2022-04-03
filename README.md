@@ -18,14 +18,14 @@ We are students of Masai School from Web17 batch and we presenting our project,b
 
 ### Pages & Features 👇
 
-- `Home Page`: Nav Bar with drop downs, sliding banners & slider for Products.
+- `Home Page`: Nav Bar with drop downs, sliding banners for products.
 - `Sign-In`: User authentication to check whether user email and password match with details existing in the database.
-- `Dynamic navbar with dropdown`: Skin products created dynamically with filter by category, name and price.
+- `Dynamic navbar with dropdown of categories`
 - `Cart`: User can see or remove products added in the cart.
 - `Checkout Page`: Users can fill in details and proceed to payment.
 - `Payment Page`: Users can add their payment details.
 - `Order Successful`: Once order is placed we continue shopping further or move out of page.
-- `Additional Features`: Kept the branding, fonts, colors  and titles consistent throughtout the whole site to give a feel like the original site.
+- `Additional Features`: Kept the branding, fonts, favicon, colors  and titles consistent throughtout the whole site to give a feel like the original site.
 
 ## Tech Stack
 
@@ -97,15 +97,15 @@ We are students of Masai School from Web17 batch and we presenting our project,b
 
 - GitHub is managed by Prem.
 
-- The Landing Page,  footer is designed & all pages functioned by Prem.
+- The Landing Page, footer is designed & all pages functioned by Prem.
 
 - The Searchbar, sign in dropdown and navbar is designed and functioned by Ashok.
 
-- Women's page,Checkout page and filter is designed & functioned by Shipra.
+- Women's page, Checkout page and filter is designed & functioned by Shipra.
 
 - Men's page and Bag designed & functioned by Sunil.
 
-- Product details , mobile and payment details page  is designed & functioned by Chetan.
+- Product details, mobile and payment details page is designed & functioned by Chetan.
 
 ## Learning :-
 
@@ -117,6 +117,8 @@ We are students of Masai School from Web17 batch and we presenting our project,b
 
 - Our skills in JavaScript and DOM manipulation became better.
 
-- We all learned how to plan a project and execute that in a lmited time frame.
+- Learned how to use Bootstrap libraries.
+
+- We all learned how to plan a project and execute that in a limited time frame.
 
 
