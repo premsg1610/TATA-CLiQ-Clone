@@ -4,7 +4,7 @@ Tata Cliq (stylised as Tata CLiQ) is an Indian e-commerce company based in Mumba
 Hi World !🌏
 We are students of Masai School from Web17 batch and we presenting our project,built in construct week of Unit2.
 
- 🚀 This link for the same is here : https://tata-cliq-clone.netlify.app
+ 🚀 This link for the same is here : tata-cliq-clone.netlify.app
  
  📚 Blog link : https://medium.com/@sunilroka/construct-week-masai-school-deacc611daa4
 
