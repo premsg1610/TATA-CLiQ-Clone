@@ -94,7 +94,7 @@
 
                 </div >
                 <!----- Product Details ------>
-                <p id="pd">Product Details</p>
+                <p id="pd"></p>
                 <p>Delivery by 6th Apr</p>
             </div>
             <div id="gift">
@@ -244,7 +244,7 @@
 
                 <div id="CashOnDelivery">
                     <img id="COD" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScijy7QGvA0hpCzmPI6rWQTZZIIU7L79gy-g&usqp=CAU" alt="">
-                    <div>Cash On Delivery</div>
+                    <div id="cod">Cash On Delivery</div>
                     
                    
 
@@ -358,7 +358,19 @@ var name1 = JSON.parse(localStorage.getItem("textarea"));
     console.log(name1);
     document.querySelector("#address").innerText = name1;
 
-</script>
+
+    document.querySelector("#cod").addEventListener("click",codFun)
+   
+    function  codFun(){
+
+        window.location.href ="successfully.html"
+    }
+
+    
+    document.querySelector("#COD").addEventListener("click",codFun)
+   
+    
+       </script>
 
 
 <script src="nav_js_css_file/brands.js"></script>
