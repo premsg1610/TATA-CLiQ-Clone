@@ -18,7 +18,7 @@ We are students of Masai School from Web17 batch and we presenting our project,b
   - 📚 Blog link : https://medium.com/@premsgupta1997/construct-week-masai-school-236beb431ead
   
   - **[Shipra](https://github.com/ships97)**
-  - 📚 Blog link : https://medium.com/@shiprapal97/construct-week-masai-school-6522fc4e7cb9
+  - 📚 Blog link : https://medium.com/@shiprapal97/how-we-made-our-1st-project-masai-school-1b7ef2550090
    
   - **[Sunil Kumar Roka](https://github.com/Roka24)**
   - 📚 Blog link : https://medium.com/@sunilroka/construct-week-masai-school-deacc611daa4
